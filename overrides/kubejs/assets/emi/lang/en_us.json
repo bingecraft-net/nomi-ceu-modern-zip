@@ -1,0 +1,16 @@
+{
+	"tag.item.gtceu.circuits.ulv": "ULV Circuits",
+	"tag.item.gtceu.circuits.lv": "LV Circuits",
+	"tag.item.gtceu.circuits.mv": "MV Circuits",
+	"tag.item.gtceu.circuits.hv": "HV Circuits",
+	"tag.item.gtceu.circuits.ev": "EV Circuits",
+	"tag.item.gtceu.circuits.iv": "IV Circuits",
+	"tag.item.gtceu.circuits.luv": "LuV Circuits",
+	"tag.item.gtceu.circuits.zpm": "ZPM Circuits",
+	"tag.item.nomi_quest.backpack": "Backpacks",
+	"tag.item.nomi.output_bus": "Item Outupt Buses",
+	"tag.item.nomi.input_bus": "Item Input Buses",
+	"tag.item.nomi.input_hatch": "Fluid Input Hatches",
+	"tag.item.nomi.output_hatch": "Fluid Output Hatches",
+	"tag.item.nomi.coins": "Coins"
+}
