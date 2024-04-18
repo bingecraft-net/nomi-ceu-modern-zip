@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.extractor('plutonium_242')
         .itemInputs(['nuclearcraft:plutonium_242'])
-        .outputFluids(['gtceu:plutonium_241 144']) // a mate of mine is a chemist who plays nomi, he's going to hate me for this -ciggy
+        .outputFluids(['gtceu:plutonium_241 144']) // a mate of mine is a chemist who plays moni, he's going to hate me for this -ciggy
         .duration(180)
         .EUt(6)
 

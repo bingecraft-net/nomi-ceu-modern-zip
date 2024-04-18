@@ -1,31 +1,32 @@
+/*
 GTCEuServerEvents.oreVeins(event => {
-    /*
-    GTCEuServerEvents.oreVeins(event => {
-    event.add("kubejs:custom_vein", vein => {
-        // Basic vein generation properties
-        vein.weight(200) // [*] 
-        vein.clusterSize(40) // [*] 
-        vein.density(0.25) // [*] 
-        vein.discardChanceOnAirExposure(0) // 
+  event.add("kubejs:custom_vein", vein => {
+    // Basic vein generation properties
+    vein.weight(200) // [*] 
+    vein.clusterSize(40) // [*] 
+    vein.density(0.25) // [*] 
+    vein.discardChanceOnAirExposure(0) // 
 
-        // Define where the vein can generate
-        vein.layer("deepslate") // [*] 
-        vein.dimensions("minecraft:overworld") // 
-        vein.biomes("#minecraft:is_overworld") // 
+    // Define where the vein can generate
+    vein.layer("deepslate") // [*] 
+    vein.dimensions("minecraft:overworld") // 
+    vein.biomes("#minecraft:is_overworld") // 
 
-        // Define a height range:
-        // You must choose EXACTLY ONE of these options! [*]
-        vein.heightRangeUniform(-60, 20)
-        // Define the vein's generator:
-        vein.generator(/* ... *//*) // [*] 
-        // Add one or more type of surface indicator to the vein:
-        vein.addIndicator(/* ... *//*) 
-        })
-    })
-    */
-    event.add("kubejs:overworldurainite", vein => {
+    // Define a height range:
+    // You must choose EXACTLY ONE of these options! [*]
+    vein.heightRangeUniform(-60, 20)
+    // Define the vein's generator:
+    vein.generator(/* ... *//*) // [*] 
+// Add one or more type of surface indicator to the vein:
+vein.addIndicator(/* ... *//*) 
+})
+})
+*/
+
+GTCEuServerEvents.oreVeins(event => {
+    event.add("kubejs:overworld/uraninite", vein => {
         vein.weight(20)
-        vein.clusterSize(30)    
+        vein.clusterSize(30)
         vein.density(0.25)
         vein.discardChanceOnAirExposure(0)
         vein.layer("stone")
@@ -40,9 +41,9 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
 
-    event.add("kubejs:overworltetrahedrite", vein => {
+    event.add("kubejs:overworld/tetrahedrite", vein => {
         vein.weight(30)
-        vein.clusterSize(30)    
+        vein.clusterSize(30)
         vein.density(0.25)
         vein.discardChanceOnAirExposure(0)
         vein.layer("stone")

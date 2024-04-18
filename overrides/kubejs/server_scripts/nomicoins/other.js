@@ -8,6 +8,6 @@ ServerEvents.recipes(event => {
         '   ',
         '   '
     ], {
-        P: 'kubejs:nomi_penny'
+        P: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 })

@@ -12,18 +12,15 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add('kubejs:microminer_t10', Text.translatable('item.kubejs.microminer_t10.desc'))
 
     //Microminer Components
-    tooltip.add('universal_navigator', '§9See You Later, navigator!')
+    tooltip.add('kubejs:universal_navigator', '§9See You Later, navigator!')
 
     //Endgame Items
-    tooltip.add('ultimate_gem', '§eRecipe is shapeless.')
+    tooltip.add('kubejs:ultimate_gem', '§eRecipe is shapeless.')
 
     //DML Matters
     tooltip.add('hostilenetworks:overworld_prediction', '§7Experience per item: 10')
     tooltip.add('hostilenetworks:nether_prediction', '§7Experience per item: 20')
     tooltip.add('hostilenetworks:end_prediction', '§7Experience per item: 25')
-
-    //Debug Laser
-    tooltip.add('kubejs:debug_laser', '§fYou need to be a §4D§ee§9v §fto use this')
 
     //Conduits
     tooltip.add('enderio:conductive_conduit', '§7Max Output 512 RF/t')
@@ -53,11 +50,17 @@ ItemEvents.tooltip(tooltip => {
         text.add(1, [Text.red('Deprecated, switch out for a sophisticated backpack.').bold()])
     })
 
+	// Fix gtceu text
     tooltip.addAdvanced(['gtceu:creative_energy', 'gtceu:creative_tank', 'gtceu:creative_chest'], (item, adv, text) => {
         text.remove(3);
         text.remove(2);
         text.remove(1);
         text.add(Text.join(Text.translatable('gtceu.creative_tooltip.1'), rainbowify(Text.translatable('gtceu.creative_tooltip.2').getString(), Math.round(Client.lastNanoTime / 100000000)), Text.translatable('gtceu.creative_tooltip.3')))
+    });
+
+	// Debug laser
+    tooltip.addAdvanced('kubejs:debug_laser', (item, adv, text) => {
+        text.add(Text.join('You need to be a ', rainbowify('dev', Math.round(Client.lastNanoTime / 100000000)), ' to use this'))
     });
 
 	// dml glitch armor

@@ -675,7 +675,7 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			title: "&dBackpack"
+			title: "&9Backpack"
 			x: 7.0d
 			y: -8.5d
 		}
@@ -689,7 +689,7 @@
 				item: "sophisticatedbackpacks:netherite_backpack"
 				type: "item"
 			}]
-			title: "&dResonant Backpack"
+			title: "&9Resonant Backpack"
 			x: 7.0d
 			y: -2.5d
 		}
@@ -711,7 +711,7 @@
 			id: "15B1277EF8657C65"
 			rewards: [{
 				id: "790D1FEAB25D4ACD"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -762,7 +762,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "&dHardened Backpack"
+			title: "&9Hardened Backpack"
 			x: 7.0d
 			y: -7.0d
 		}
@@ -792,7 +792,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dReinforced Backpack"
+			title: "&9Reinforced Backpack"
 			x: 7.0d
 			y: -5.5d
 		}
@@ -823,7 +823,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dSignalum Backpack"
+			title: "&9Signalum Backpack"
 			x: 7.0d
 			y: -4.0d
 		}
@@ -902,9 +902,9 @@
 		{
 			dependencies: ["3EDD0A986384F2A7"]
 			description: [
-				"Now that you have a &3Wiremill&f and a &2Bending Machine&f, you can consider starting to do &eBounties&f. The &6Bounty Board&f has a global inventory containing quests to turn in specific items in exchange for &dNomicoins&f. These quests have a fairly short duration, so make sure to &estockpile the items&f that come up on them or else they'll &cexpire before you can complete them&f."
+				"Now that you have a &3Wiremill&f and a &2Bending Machine&f, you can consider starting to do &eBounties&f. The &6Bounty Board&f has a global inventory containing quests to turn in specific items in exchange for &9Monicoins&f. These quests have a fairly short duration, so make sure to &estockpile the items&f that come up on them or else they'll &cexpire before you can complete them&f."
 				""
-				"With renewable &dNomicoins&f, you should feel free to spend the ones you have on whatever you need. &aSpend your coins!"
+				"With renewable &9Monicoins&f, you should feel free to spend the ones you have on whatever you need. &aSpend your coins!"
 			]
 			disable_toast: true
 			hide_dependency_lines: true
@@ -915,12 +915,11 @@
 				item: "bountiful:bountyboard"
 				type: "item"
 			}]
-			title: "&2Bounties For Nomicoins!"
+			title: "&2Bounties For Monicoins!"
 			x: 11.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["0A65FC6D798ABFC5"]
 			description: [
 				"Holding one of these reveals &aTravel Anchors&r and &aTelepads&r in range."
 				""
@@ -997,7 +996,7 @@
 			description: [
 				"The Second Micro Miner! &2You'll need that Phosphorous in the LV Field Generators.&r"
 				""
-				"&dDon't forget that you can automate Extended Crafting recipes before you get PackagedAuto by converting your Extended Crafting tables into autocrafting tables."
+				"&9Don't forget that you can automate Extended Crafting recipes before you get PackagedAuto by converting your Extended Crafting tables into autocrafting tables."
 				""
 				"This Micro Miner can get you:&6"
 				"&6* Bauxite Ore"
@@ -1022,7 +1021,7 @@
 				item: "kubejs:microminer_t2"
 				type: "item"
 			}]
-			title: "&dTier Two Micro Miner"
+			title: "&9Tier Two Micro Miner"
 			x: 18.0d
 			y: -7.0d
 		}
@@ -1213,7 +1212,7 @@
 				"483652BAEF59E125"
 			]
 			description: [
-				"Combines &bStellar Creation Data&r into the &dUniverse Creation Data&r, which is a crucial component for the Tier Ten Micro Miner mission."
+				"Combines &bStellar Creation Data&r into the &9Universe Creation Data&r, which is a crucial component for the Tier Ten Micro Miner mission."
 				""
 				"The alternate mission brings a decent quantity of &6Neutronium&r. It might be easier to just make all your Neutronium in the reactor, but it's up to you."
 			]
@@ -1282,7 +1281,7 @@
 				""
 				"&6Kanthal Coils&r are required primarily for producing &6Silicon&r, required for Circuit parts, and &6Titanium&r, used for &5EV&r machines. An &bMV &3Assembler&r is required to produce them, and they require &62x Kanthal Wire&r, &6Aluminium Foil&r, and &9Copper fluid&r."
 				""
-				"&2In CEu, using higher-tier coils provides some bonuses to their multiblocks.&r For the &3Electric Blast Furnace&r, running recipes hotter than required can reduce the energy cost and time taken. The &dtemperature&r of the EBF depends on the coil used and the voltage it is running at. For Kanthal Coils, this means that recipes you could run with &6Cupronickel Coils&r will save &d5%%&r energy."
+				"&2In CEu, using higher-tier coils provides some bonuses to their multiblocks.&r For the &3Electric Blast Furnace&r, running recipes hotter than required can reduce the energy cost and time taken. The &9temperature&r of the EBF depends on the coil used and the voltage it is running at. For Kanthal Coils, this means that recipes you could run with &6Cupronickel Coils&r will save &95%%&r energy."
 				""
 				"Refer to the coil tooltip and EBF controller tooltip for the other bonuses provided."
 			]
@@ -1325,11 +1324,11 @@
 				""
 				"Notice that an &6HV&r &3Assembler&r is required to make them. Each tier of coil requires their tier of Assembler - we won't remind you again."
 				""
-				"&d3600K&r is now also hot enough to grant a single &d100%% efficient overclock&r to 1800K and below recipes. This means that one overclock will grant &d4x speed&r instead of the normal &d2x&r. In effect, you will get an additional 2x speed boost by overclocking once. "
+				"&93600K&r is now also hot enough to grant a single &9100%% efficient overclock&r to 1800K and below recipes. This means that one overclock will grant &94x speed&r instead of the normal &92x&r. In effect, you will get an additional 2x speed boost by overclocking once. "
 				""
 				"This means that the gas-boosted recipe for &6Aluminium&r will get cut from about &e7s&r to &e3s&r at HV. Once you upgrade your EBF to EV power, &6Stainless Steel Ingots&r will get cut from about &e37s&r to &e9s&r! It's well worth upgrading the EBFs producing these materials to &6Nichrome&r once you can afford it. "
 				""
-				"Later coils will give similar bonuses. Additionally, the EBF's temperature will increase by &d100K&r for each voltage tier above MV, which could make a difference for future materials."
+				"Later coils will give similar bonuses. Additionally, the EBF's temperature will increase by &9100K&r for each voltage tier above MV, which could make a difference for future materials."
 			]
 			disable_toast: true
 			id: "4133AC6062B00994"
@@ -1362,7 +1361,7 @@
 				item: "gtceu:rtm_alloy_ingot"
 				type: "item"
 			}]
-			title: "&dRTM Alloy"
+			title: "&9RTM Alloy"
 			x: 15.0d
 			y: -5.5d
 		}
@@ -1371,7 +1370,7 @@
 			description: [
 				"&6RTM Alloy&r is the fourth coil material available, increasing your EBF's operating temperature to 4500K so it can process more advanced materials."
 				""
-				"&dIn modern, RTM Alloy replaces tungstensteel in coil progression."
+				"&9In Monifactory, RTM Alloy replaces tungstensteel in coil progression."
 			]
 			disable_toast: true
 			id: "6DC635766CD40FFF"
@@ -1382,7 +1381,7 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			title: "&dRTM Alloy Coil Blocks"
+			title: "&9RTM Alloy Coil Blocks"
 			x: 13.5d
 			y: -4.0d
 		}
@@ -1475,7 +1474,7 @@
 			description: [
 				"&2A strong heavy element obtained from the Naquadah chain."
 				""
-				"&6Trinium&r can come from &6Kaemanite Ore&r, but you will probably want to bolster its production with &6Naquadah Dust&r processing. It comes out at the second stage, so if you don't mind storing the intermediates and have Fluorine under control, you can hold off doing the full chain if you don't need to yet. You get &d1 Trinium per 6 Naquadah processed&r."
+				"&6Trinium&r can come from &6Kaemanite Ore&r, but you will probably want to bolster its production with &6Naquadah Dust&r processing. It comes out at the second stage, so if you don't mind storing the intermediates and have Fluorine under control, you can hold off doing the full chain if you don't need to yet. You get &91 Trinium per 6 Naquadah processed&r."
 				""
 				"This will be required in large quantities for &6Trinium Coils&r, &6Superconducting Coil Blocks&r, &6Naquadah Alloy&r, among other things. You will need 14 stacks at least for a &3Fusion Reactor Mk1&r, so stock up on it."
 			]
@@ -1637,7 +1636,7 @@
 			id: "15A43AB700CADF2D"
 			rewards: [{
 				id: "3D990FB80B9FA05C"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "square"
@@ -1747,7 +1746,7 @@
 				item: "miniutilities:angel_ring"
 				type: "item"
 			}]
-			title: "&dCaptain... Marvel? IDK"
+			title: "&9Captain... Marvel? IDK"
 			x: 12.0d
 			y: -4.0d
 		}

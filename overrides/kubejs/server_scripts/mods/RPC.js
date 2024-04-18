@@ -43,6 +43,6 @@ const ___updateTierRPC = (tier, player) => {
 		console.log("!! DONT RIGHT CLICK -> 'COMPLETE INSTANTLY', IT WONT SEND THE PLAYER !!")
 		return;
 	}
-	player.sendData('nomi:rpc', { tier: tier });
+	player.sendData('moni:rpc', { tier: tier });
 	// console.log("SDRP Sent Update to client");
 }

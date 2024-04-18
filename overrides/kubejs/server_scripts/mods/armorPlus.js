@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-	
+
     event.remove({ id: 'armorplus:crafting/shaped/redstone/redstone_helmet' });
     event.remove({ id: 'armorplus:crafting/shaped/redstone/redstone_helmet_alt' });
     event.remove({ id: 'armorplus:crafting/shaped/redstone/redstone_chestplate' });
@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'armorplus:crafting/shaped/lapis/lapis_boots' });
     event.remove({ id: 'armorplus:crafting/shaped/lapis/lapis_boots_alt' });
 
-    let materials = [
+    const materials = [
         "redstone",
         'lapis',
         'manyullyn',
@@ -22,78 +22,71 @@ ServerEvents.recipes(event => {
         'ardite'
     ];
 
-
     materials.forEach(material => {
-        event.shaped('armorplus:' + material + "_helmet",
-        ['   ',
-        'AAA',
-        'A A'], {
-        A: 'gtceu:' + material + "_plate"
-        }).id("kubejs:armorplus/"+material+"_helmet");
+        event.shaped('armorplus:' + material + "_helmet", [
+			'   ',
+			'AAA',
+			'A A'
+		], { A: 'gtceu:' + material + "_plate" })
+		.id("kubejs:armorplus/"+material+"_helmet");
+
+        event.shaped('armorplus:' + material + "_chestplate",[
+			'A A',
+			'AAA',
+			'AAA'
+		], { A: 'gtceu:' + material + "_plate" })
+		.id("kubejs:armorplus/"+material+"_chestplate");
+
+        event.shaped('armorplus:' + material + "_leggings", [
+			'AAA',
+			'A A',
+			'A A'
+		], { A: 'gtceu:' + material + "_plate" })
+		.id("kubejs:armorplus/"+material+"_leggings");
+
+        event.shaped('armorplus:' + material + "_boots", [
+			'   ',
+			'A A',
+			'A A'
+		], { A: 'gtceu:' + material + "_plate" })
+		.id("kubejs:armorplus/"+material+"_boots");
     });
 
-    materials.forEach(material => {
-        event.shaped('armorplus:' + material + "_chestplate",
-        ['AAA',
-        'AAA',
-        'A A'], {
-        A: 'gtceu:' + material + "_plate"
-        }).id("kubejs:armorplus/"+material+"_chestplate");
-    });
-
-    materials.forEach(material => {
-        event.shaped('armorplus:' + material + "_leggings",
-        ['AAA',
-        'A A',
-        'A A'], {
-        A: 'gtceu:' + material + "_plate"
-        }).id("kubejs:armorplus/"+material+"_leggings");
-    });
-
-    materials.forEach(material => {
-        event.shaped('armorplus:' + material + "_boots",
-        ['   ',
-        'A A',
-        'A A'], {
-        A: 'gtceu:' + material + "_plate"
-        }).id("kubejs:armorplus/"+material+"_boots");
-    });
-
-    event.shaped('armorplus:knight_slime_helmet',
-        ['AAA',
+    event.shaped('armorplus:knight_slime_helmet', [
+		'AAA',
         'ABA',
-        '   '],
-        {
-            A: "gtceu:titanium_carbide_plate",
-            B: "minecraft:slime_block"
-        }).id("kubejs:armorplus/knight_slime_helmet");
+        '   '
+	], {
+        A: "gtceu:titanium_carbide_plate",
+        B: "minecraft:slime_block"
+    }).id("kubejs:armorplus/knight_slime_helmet");
 
-    event.shaped('armorplus:knight_slime_chestplate',
-        ['ABA',
+    event.shaped('armorplus:knight_slime_chestplate', [
+		'ABA',
         'AAA',
-        'AAA'],
-        {
-            A: "gtceu:titanium_carbide_plate",
-            B: "minecraft:slime_block"
-        }).id("kubejs:armorplus/knight_slime_chestplate");
+        'AAA'
+	], {
+        A: "gtceu:titanium_carbide_plate",
+        B: "minecraft:slime_block"
+    }).id("kubejs:armorplus/knight_slime_chestplate");
 
-    event.shaped('armorplus:knight_slime_leggings',
-        ['AAA',
+    event.shaped('armorplus:knight_slime_leggings',[
+		'AAA',
         'ABA',
-        'A A'],
-        {
-            A: "gtceu:titanium_carbide_plate",
-            B: "minecraft:slime_block"
-        }).id("kubejs:armorplus/knight_slime_leggings");
+        'A A'
+	], {
+        A: "gtceu:titanium_carbide_plate",
+		B: "minecraft:slime_block"
+    }).id("kubejs:armorplus/knight_slime_leggings");
 
-    event.shaped('armorplus:knight_slime_boots',
-        ['ABA',
+    event.shaped('armorplus:knight_slime_boots',[
+		'ABA',
         'A A',
-        '   '],
-        {
-            A: "gtceu:titanium_carbide_plate",
-            B: "minecraft:slime_block"
-        }).id("kubejs:armorplus/knight_slime_boots");
+        '   '
+	], {
+        A: "gtceu:titanium_carbide_plate",
+        B: "minecraft:slime_block"
+    }).id("kubejs:armorplus/knight_slime_boots");
 
     // Fix buggy recipes
     event.remove( { id: 'armorplus:crafting/shapeless/storage/infused_frost_crystal_to_item' } )

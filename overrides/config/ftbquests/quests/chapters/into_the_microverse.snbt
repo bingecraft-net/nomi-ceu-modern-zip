@@ -14,7 +14,7 @@
 			id: "3AD22A73E517DD01"
 			rewards: [{
 				id: "7547817DD805CD76"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -32,7 +32,7 @@
 			id: "74FEF82CA2FB3D02"
 			rewards: [{
 				id: "10AA1D453B8D92EC"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -59,7 +59,7 @@
 			id: "01F946C4A4BF4FFE"
 			rewards: [{
 				id: "559D9870D4954668"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -77,7 +77,7 @@
 			id: "718AF2C9476BE1F4"
 			rewards: [{
 				id: "2321FAD936678D92"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -95,7 +95,7 @@
 			id: "52B20235882063BF"
 			rewards: [{
 				id: "1757FF029B625C79"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -117,7 +117,7 @@
 			id: "1735403C8B0D3FAD"
 			rewards: [{
 				id: "1B7D375C31F4A0A7"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -149,7 +149,7 @@
 			id: "3BB7400C8BB392D9"
 			rewards: [{
 				id: "35DF5CEAEF8B9184"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -181,7 +181,7 @@
 			id: "648B1E09AA648798"
 			rewards: [{
 				id: "1FB9EE0FCA383E6C"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -200,7 +200,7 @@
 			id: "004344AC70AE88F1"
 			rewards: [{
 				id: "6102122169F32D7A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -222,7 +222,7 @@
 			id: "56BAC68878E11DF4"
 			rewards: [{
 				id: "788E98E9C07492B3"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -243,7 +243,7 @@
 			id: "04475771966A92C3"
 			rewards: [{
 				id: "5DB215925494ED25"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -263,12 +263,12 @@
 			description: [
 				"This is the largest Extended Crafting Table, capable of handling 9x9 recipes."
 				""
-				"&dPackagedAuto is now available, so just use that to automate these recipes."
+				"&9PackagedAuto is now available, so just use that to automate these recipes."
 			]
 			id: "555BEBF7FD6012B7"
 			rewards: [{
 				id: "636C9B089C324417"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -278,7 +278,7 @@
 				item: "extendedcrafting:ultimate_table"
 				type: "item"
 			}]
-			title: "&dUltimate Crafting Table"
+			title: "&9Ultimate Crafting Table"
 			x: -3.0d
 			y: -6.0d
 		}
@@ -290,12 +290,12 @@
 			description: [
 				"This table allows you to craft 7x7 Extended Crafting Table recipes."
 				""
-				"&dDon't forget that you can automate Extended Crafting recipes before you get PackagedAuto by converting your Extended Crafting tables into autocrafting tables."
+				"&9Don't forget that you can automate Extended Crafting recipes before you get PackagedAuto by converting your Extended Crafting tables into autocrafting tables."
 			]
 			id: "77582C534A994D7C"
 			rewards: [{
 				id: "283EED18AE8CAD38"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -305,7 +305,7 @@
 				item: "extendedcrafting:elite_table"
 				type: "item"
 			}]
-			title: "&dElite Crafting Table"
+			title: "&9Elite Crafting Table"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -315,7 +315,7 @@
 			id: "3729FBA4FA7E9C12"
 			rewards: [{
 				id: "57FA704F8C1854B9"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -332,12 +332,12 @@
 			description: [
 				"With the Advanced Crafting Table, you can now craft 5x5 recipes."
 				""
-				"&dYou can automate Extended Crafting recipes before you get PackagedAuto by converting your Extended Crafting tables into autocrafting tables."
+				"&9You can automate Extended Crafting recipes before you get PackagedAuto by converting your Extended Crafting tables into autocrafting tables."
 			]
 			id: "2181102841205407"
 			rewards: [{
 				id: "2D0CA383333B6AC1"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -347,7 +347,7 @@
 				item: "extendedcrafting:advanced_table"
 				type: "item"
 			}]
-			title: "&dAdvanced Crafting Table"
+			title: "&9Advanced Crafting Table"
 			x: 0.0d
 			y: -10.5d
 		}
@@ -357,7 +357,7 @@
 			id: "27692C4A58F1A183"
 			rewards: [{
 				id: "10AC2BDC3EEDEE13"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -381,7 +381,7 @@
 			id: "56FB624B384FFAF5"
 			rewards: [{
 				id: "671C0205B990A2F1"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -408,7 +408,7 @@
 			id: "399AE4E449872B8A"
 			rewards: [{
 				id: "68E1D95E0AC47C7B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -441,7 +441,7 @@
 			id: "281C7940CD437B69"
 			rewards: [{
 				id: "46FEAACBB5D75703"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -470,7 +470,7 @@
 			id: "131EAE1541E9C780"
 			rewards: [{
 				id: "60BBAE32BB4AD8C3"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -494,7 +494,7 @@
 			id: "4669C1DCEE4AA563"
 			rewards: [{
 				id: "558D57ABDD9D65EC"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -517,7 +517,7 @@
 					type: "item"
 				}
 			]
-			title: "&dRocket Parts"
+			title: "&9Rocket Parts"
 			x: 3.5d
 			y: -8.5d
 		}
@@ -538,7 +538,7 @@
 			id: "2BD54071AD23C73C"
 			rewards: [{
 				id: "34CD9BF01139C350"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -588,7 +588,7 @@
 					type: "item"
 				}
 			]
-			title: "&dSpace Suit"
+			title: "&9Space Suit"
 			x: 2.0d
 			y: -8.5d
 		}
@@ -604,7 +604,7 @@
 			id: "0400F3BAB236F259"
 			rewards: [{
 				id: "352FEDC82096150A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -618,7 +618,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dPlanet ID"
+			title: "&9Planet ID"
 			x: 5.0d
 			y: -8.5d
 		}
@@ -628,14 +628,14 @@
 				"2181102841205407"
 			]
 			description: [
-				"The &dRocket Scanner&r is used to create rockets from various blocks."
+				"The &9Rocket Scanner&r is used to create rockets from various blocks."
 				""
 				"To use it, build the multiblock, then place &6engines&r and &6tanks&r (as well as other blocks) within the given area. Once you are satisfied, press the &eBuild Rocket&r text in the Rocket Scanner's GUI."
 			]
 			id: "193B7038EAB6EFA3"
 			rewards: [{
 				id: "241FC93655A20BDE"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -645,7 +645,7 @@
 				item: "gcyr:rocket_scanner"
 				type: "item"
 			}]
-			title: "&dGregtech Rockets"
+			title: "&9Gregtech Rockets"
 			x: 3.5d
 			y: -10.5d
 		}
@@ -655,7 +655,7 @@
 			id: "247F4985B9ACE568"
 			rewards: [{
 				id: "66D891D3D0BD4E6D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -674,7 +674,7 @@
 			rewards: [{
 				count: 2
 				id: "38B02071529926AE"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -695,7 +695,7 @@
 			id: "5E2489DE2E840738"
 			rewards: [{
 				id: "1C076188D1C62B2C"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -723,7 +723,7 @@
 			id: "4146B73F27D24131"
 			rewards: [{
 				id: "0708288A50560FE6"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -744,7 +744,7 @@
 			id: "3547762BC39A0B8F"
 			rewards: [{
 				id: "75C58EF83EDFB4A3"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -767,7 +767,7 @@
 			id: "374EB1BB1E2F6B9C"
 			rewards: [{
 				id: "64CE305C66916861"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -790,7 +790,7 @@
 			id: "5DA5231489336B1B"
 			rewards: [{
 				id: "74161C0370473D5A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -808,7 +808,7 @@
 			id: "5878D53EB85F3881"
 			rewards: [{
 				id: "5AD6DCD80667ABA1"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -876,14 +876,14 @@
 				""
 				"Just keep in mind that it's much less rewarding to skip this and you'll need lots of Hydrogen to compensate, although you won't need too much for the first &3Microverse Projector&r."
 				""
-				"In &6HV&r Age and more effectively in &dIV&r Age, you can also get this from processing &9Ender Air&r, which may be better than going to the moon, depending on your circumstances.&r"
+				"In &6HV&r Age and more effectively in &9IV&r Age, you can also get this from processing &9Ender Air&r, which may be better than going to the moon, depending on your circumstances.&r"
 				""
 				"There are also several ores that are rare on the Overworld but exist in abundance on the Moon. In particular, the Moon contains large quantities of &6Titanium&r (in the form of &6Rutile Ore&r and &6Ilmenite Ore&r) and &6Tungsten&r (in the form of &6Scheelite Ore&r and &6Tungstate Ore&r)."
 			]
 			id: "7DE2C9292A09FC76"
 			rewards: [{
 				id: "7D1DF49C64A72FE6"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -928,7 +928,7 @@
 			id: "5B07A88C0BFF6586"
 			rewards: [{
 				id: "699824225F37A71A"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1010,7 +1010,7 @@
 			id: "4F572CA3678CB287"
 			rewards: [{
 				id: "7C3644C76B5E1C49"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1055,7 +1055,7 @@
 			id: "638130DC8A2BF1C1"
 			rewards: [{
 				id: "5FF12439A660943F"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1076,7 +1076,7 @@
 			id: "5EB185AD9BD0D069"
 			rewards: [{
 				id: "57F0241771210D36"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"

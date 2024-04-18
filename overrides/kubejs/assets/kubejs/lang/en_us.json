@@ -17,10 +17,10 @@
   "item.kubejs.glitch_infused_ingot": "§bGlitch Infused Ingot",
   "item.kubejs.glitch_infused_ingot.desc": "§7Made by stablizing §bUnstable Glitch Fragment§r",
 
-  "item.kubejs.nomi_penny": "Nomipenny §7[1]",
-  "item.kubejs.nomi_nickel": "§eNominickel §r§7[5]",
-  "item.kubejs.nomi_quarter": "§bNomiquarter §r§7[25]",
-  "item.kubejs.nomi_dollar": "§dNomidollar §r§7[100]",
+  "item.kubejs.moni_penny": "Monipenny §7[1]",
+  "item.kubejs.moni_nickel": "§eMoninickel §r§7[5]",
+  "item.kubejs.moni_quarter": "§bMoniquarter §r§7[25]",
+  "item.kubejs.moni_dollar": "§dMonidollar §r§7[100]",
 
   "item.kubejs.microminer_t1": "§eSteel Plated Micro Miner [Tier One]",
   "item.kubejs.microminer_t1.desc": "§7§oHarvests Titanium and other light metals from asteroids in the microverse.",

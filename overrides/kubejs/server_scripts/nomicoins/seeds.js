@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         ' A ',
         '   '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         '   ',
         '   '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         'A  ',
         '   '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -33,6 +33,6 @@ ServerEvents.recipes(event => {
         '   ',
         '   '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 })

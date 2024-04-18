@@ -244,4 +244,97 @@ ServerEvents.recipes(event => {
         .outputFluids('gtceu:manganese 4320')
         .duration(200)
         .EUt(2000)
+
+
+    event.remove({
+        output: [
+            'nuclearcraft:fuel_thorium_tbu',
+            'nuclearcraft:fuel_uranium_leu_233',
+            'nuclearcraft:fuel_uranium_heu_233',
+            'nuclearcraft:fuel_uranium_leu_235',
+            'nuclearcraft:fuel_uranium_heu_235',
+            'nuclearcraft:fuel_neptunium_len_236',
+            'nuclearcraft:fuel_americium_hea_242',
+            'nuclearcraft:fuel_americium_lea_242',
+            'nuclearcraft:fuel_plutonium_hep_241',
+            'nuclearcraft:fuel_plutonium_lep_241',
+            'nuclearcraft:fuel_plutonium_hep_239',
+            'nuclearcraft:fuel_plutonium_lep_239',
+            'nuclearcraft:fuel_neptunium_hen_236',
+            'nuclearcraft:fuel_curium_lecm_243',
+            'nuclearcraft:fuel_curium_hecm_243',
+            'nuclearcraft:fuel_curium_lecm_245',
+            'nuclearcraft:fuel_curium_lecm_247',
+            'nuclearcraft:fuel_curium_hecm_247',
+            'nuclearcraft:fuel_berkelium_leb_248',
+            'nuclearcraft:fuel_californium_hecf_251',
+            'nuclearcraft:fuel_californium_lecf_251',
+            'nuclearcraft:fuel_californium_hecf_249',
+            'nuclearcraft:fuel_californium_lecf_249',
+            'nuclearcraft:fuel_berkelium_heb_248'
+        ]
+    })
+
+    event.remove({
+        output: [
+            'nuclearcraft:depleted_fuel_thorium_tbu',
+            'nuclearcraft:depleted_fuel_uranium_leu_233',
+            'nuclearcraft:depleted_fuel_uranium_heu_233',
+            'nuclearcraft:depleted_fuel_uranium_leu_235',
+            'nuclearcraft:depleted_fuel_uranium_heu_235',
+            'nuclearcraft:depleted_fuel_neptunium_len_236',
+            'nuclearcraft:depleted_fuel_americium_hea_242',
+            'nuclearcraft:depleted_fuel_americium_lea_242',
+            'nuclearcraft:depleted_fuel_plutonium_hep_241',
+            'nuclearcraft:depleted_fuel_plutonium_lep_241',
+            'nuclearcraft:depleted_fuel_plutonium_hep_239',
+            'nuclearcraft:depleted_fuel_plutonium_lep_239',
+            'nuclearcraft:depleted_fuel_neptunium_hen_236',
+            'nuclearcraft:depleted_fuel_curium_lecm_243',
+            'nuclearcraft:depleted_fuel_curium_hecm_243',
+            'nuclearcraft:depleted_fuel_curium_lecm_245',
+            'nuclearcraft:depleted_fuel_curium_lecm_247',
+            'nuclearcraft:depleted_fuel_curium_hecm_247',
+            'nuclearcraft:depleted_fuel_berkelium_leb_248',
+            'nuclearcraft:depleted_fuel_californium_hecf_251',
+            'nuclearcraft:depleted_fuel_californium_lecf_251',
+            'nuclearcraft:depleted_fuel_californium_hecf_249',
+            'nuclearcraft:depleted_fuel_californium_lecf_249',
+            'nuclearcraft:depleted_fuel_berkelium_heb_248'
+        ],
+        type: "minecraft:smelting"
+    })
+
+    event.remove({ output: ['nuclearcraft:californium_251', 'nuclearcraft:plutonium_241', 'nuclearcraft:americium_243', 'nuclearcraft:plutonium_238', 'nuclearcraft:boron_10', 'nuclearcraft:boron_11', 'nuclearcraft:plutonium_239', 'nuclearcraft:neptunium_236', 'nuclearcraft:neptunium_237', 'nuclearcraft:curium_246', 'nuclearcraft:curium_247', 'nuclearcraft:curium_245', 'nuclearcraft:curium_243', 'nuclearcraft:berkelium_247', 'nuclearcraft:berkelium_248', 'nuclearcraft:uranium_235', 'nuclearcraft:uranium_238', 'nuclearcraft:uranium_233', 'nuclearcraft:lithium_6', 'nuclearcraft:lithium_7', 'nuclearcraft:americium_241', 'nuclearcraft:americium_242', 'nuclearcraft:plutonium_242', 'nuclearcraft:californium_250', 'nuclearcraft:californium_249', 'nuclearcraft:thorium_230', 'nuclearcraft:thorium_232', 'nuclearcraft:californium_252'], type: "minecraft:smelting" })
+
+
+    event.shaped('nuclearcraft:fuel_thorium_tbu', ['AAA', 'AAA', 'AAA'], { A: 'nuclearcraft:thorium_232' })
+    event.shaped('nuclearcraft:fuel_uranium_heu_233', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:uranium_233', B: 'nuclearcraft:uranium_238' })
+    event.shaped('nuclearcraft:fuel_uranium_leu_233', ['ABB', 'BBB', 'BBB'], { A: 'nuclearcraft:uranium_233', B: 'nuclearcraft:uranium_238' })
+    event.shaped('nuclearcraft:fuel_uranium_leu_235', ['ABB', 'BBB', 'BBB'], { A: 'gtceu:uranium_235_ingot', B: 'nuclearcraft:uranium_238' })
+    event.shaped('nuclearcraft:fuel_uranium_heu_235', ['AAA', 'ABB', 'BBB'], { A: 'gtceu:uranium_235_ingot', B: 'nuclearcraft:uranium_238' })
+    event.shaped('nuclearcraft:fuel_neptunium_hen_236', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:neptunium_236', B: 'nuclearcraft:neptunium_237' })
+    event.shaped('nuclearcraft:fuel_neptunium_len_236', ['ABB', 'BBB', 'BBB'], { A: 'nuclearcraft:neptunium_236', B: 'nuclearcraft:neptunium_237' })
+    event.shaped('nuclearcraft:fuel_plutonium_lep_239', ['ABB', 'BBB', 'BBB'], { A: 'gtceu:plutonium_ingot', B: 'nuclearcraft:plutonium_242' })
+    event.shaped('nuclearcraft:fuel_plutonium_lep_239', ['AAA', 'ABB', 'BBB'], { A: 'gtceu:plutonium_ingot', B: 'nuclearcraft:plutonium_242' })
+    event.shaped('nuclearcraft:fuel_plutonium_lep_241', ['ABB', 'BBB', 'BBB'], { A: 'gtceu:plutonium_241_ingot', B: 'nuclearcraft:plutonium_242' })
+    event.shaped('nuclearcraft:fuel_plutonium_hep_239', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:plutonium_239', B: 'nuclearcraft:plutonium_242' })
+    event.shaped('nuclearcraft:fuel_plutonium_hep_241', ['AAA', 'ABB', 'BBB'], { A: 'gtceu:plutonium_241_ingot', B: 'nuclearcraft:plutonium_242' })
+    event.shaped('nuclearcraft:fuel_americium_lea_242', ['ABB', 'BBB', 'BBB'], { A: 'nuclearcraft:americium_242', B: 'nuclearcraft:americium_243' })
+    event.shaped('nuclearcraft:fuel_curium_lecm_243', ['ABB', 'BBB', 'BBB'], { A: 'nuclearcraft:curium_243', B: 'nuclearcraft:curium_246' })
+    event.shaped('nuclearcraft:fuel_americium_hea_242', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:americium_242', B: 'nuclearcraft:americium_243' })
+    event.shaped('nuclearcraft:fuel_curium_lecm_247', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:curium_243', B: 'nuclearcraft:curium_246' })
+    event.shaped('nuclearcraft:fuel_curium_lecm_245', ['ABB', 'BBB', 'BBB'], { A: 'nuclearcraft:curium_245', B: 'nuclearcraft:curium_246' })
+    event.shaped('nuclearcraft:fuel_curium_lecm_247', ['ABB', 'BBB', 'BBB'], { A: 'nuclearcraft:curium_247', B: 'nuclearcraft:curium_245' })
+    event.shaped('nuclearcraft:fuel_curium_hecm_245', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:curium_245', B: 'nuclearcraft:curium_246' })
+    event.shaped('nuclearcraft:fuel_curium_hecm_247', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:curium_247', B: 'nuclearcraft:curium_246' })
+    event.shaped('nuclearcraft:fuel_berkelium_leb_248', ['ABB', 'BBB', 'BBB'], { A: 'nuclearcraft:berkelium_248', B: 'nuclearcraft:berkelium_247' })
+    event.shaped('nuclearcraft:fuel_berkelium_heb_248', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:berkelium_248', B: 'nuclearcraft:berkelium_247' })
+    event.shaped('nuclearcraft:fuel_californium_lecf_249', ['ABB', 'BBB', 'BBB'], { A: 'nuclearcraft:californium_249', B: 'nuclearcraft:californium_252' })
+    event.shaped('nuclearcraft:fuel_californium_lecf_251', ['ABB', 'BBB', 'BBB'], { A: 'nuclearcraft:californium_251', B: 'nuclearcraft:californium_252' })
+    event.shaped('nuclearcraft:fuel_californium_hecf_249', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:californium_249', B: 'nuclearcraft:californium_252' })
+    event.shaped('nuclearcraft:fuel_californium_hecf_251', ['AAA', 'ABB', 'BBB'], { A: 'nuclearcraft:californium_251', B: 'nuclearcraft:californium_252' })
+
+
+
 })

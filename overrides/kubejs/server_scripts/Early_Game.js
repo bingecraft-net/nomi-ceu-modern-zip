@@ -34,58 +34,6 @@ ServerEvents.recipes(event => {
     // Solar composite
     event.shapeless("3x enderio:photovoltaic_composite", ["gtceu:lapis_dust", "gtceu:coal_dust", "gtceu:silicon_dust"]).id('enderio:photovoltaic_composite')
 
-    // Drawers
-    event.remove({ id: "storagedrawers:controller" })
-    event.shaped(
-        "storagedrawers:obsidian_storage_upgrade", [
-        'SSS',
-        'CUC',
-        'SSS'
-    ], {
-        S: "#forge:rods/wood",
-        C: "minecraft:coal",
-        U: "storagedrawers:upgrade_template"
-    }
-    ).id('storagedrawers:obsidian_storage_upgrade')
-    event.shaped(
-        "storagedrawers:compacting_drawers_3", [
-        'III',
-        'PDP',
-        'III'
-    ], {
-        I: "gtceu:iron_plate",
-        P: "gtceu:lv_electric_piston",
-        D: "#storagedrawers:drawers"
-    }
-    ).id('storagedrawers:compacting_drawers_3')
-    event.shaped(
-        "storagedrawers:controller_slave", [
-        'III',
-        'CDC',
-        'IGI'
-    ], {
-        I: "gtceu:iron_plate",
-        C: "#gtceu:circuits/lv",
-        D: "#storagedrawers:drawers",
-        G: "#forge:storage_blocks/gold"
-    }
-    ).id('storagedrawers:controller_slave')
-
-    const controllerCore = ["#forge:storage_blocks/diamond", "#forge:storage_blocks/emerald"]
-    controllerCore.forEach(coreBlock => {
-        event.shaped(
-            "storagedrawers:controller", [
-            'III',
-            'CDC',
-            'IEI'
-        ], {
-            I: "gtceu:iron_plate",
-            C: "#gtceu:circuits/lv",
-            D: "#storagedrawers:drawers",
-            E: coreBlock
-        })
-    })
-
     event.remove({ id: 'gtceu:assembler/phenolic_board' })
     event.recipes.gtceu.chemical_reactor('phenolic_board')
         .itemInputs('gtceu:resin_circuit_board')
@@ -137,4 +85,15 @@ ServerEvents.recipes(event => {
     //Toolbelts
     event.replaceInput({ output: 'toolbelt:pouch' }, 'minecraft:gold_ingot', 'gtceu:steel_ingot')
 
+	// early canning (using this explicitly as it has types)
+	// lithium, cadmium, sodium
+	event.recipes.minecraft.crafting_shapeless('gtceu:lv_lithium_battery', [
+		'gtceu:lv_battery_hull', '2x #forge:dusts/lithium'
+	]).id('moni:lv_lithium_battery')
+	event.recipes.minecraft.crafting_shapeless('gtceu:lv_cadmium_battery', [
+		'gtceu:lv_battery_hull', '2x #forge:dusts/cadmium'
+	]).id('moni:lv_cadmium_battery')
+	event.recipes.minecraft.crafting_shapeless('gtceu:lv_sodium_battery', [
+		'gtceu:lv_battery_hull', '2x #forge:dusts/sodium'
+	]).id('moni:lv_sodium_battery')
 })

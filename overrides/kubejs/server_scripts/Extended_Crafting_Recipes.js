@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
             Z: 'gtceu:quantum_star',
             Y: 'kubejs:endest_star',
             U: 'armorplus:the_ultimate_material'
-        });
+        }).id('kubejs:extended/eternal_catalyst');
 
     //INFINITY CATALYST
     event.recipes.extendedcrafting.shaped_table(
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
             E: "kubejs:eternal_catalyst",
             C: 'draconicevolution:chaotic_core',
             H: 'kubejs:heart_of_a_universe'
-        });
+        }).id('kubejs:extended/infinity_catalyst');
 
 	// infinity ingot
 	event.recipes.extendedcrafting.shaped_table(
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
 			D: 'kubejs:eternal_catalyst',
 			E: 'avaritia:infinity_catalyst',
 		}
-	)
+	).id('kubejs:extended/infinity_ingot')
 
 
 	// mote of omnium
@@ -156,7 +156,7 @@ ServerEvents.recipes(event => {
 			'gtceu:naquadah_ingot',
 			'gtceu:tiny_nether_star_dust',
 		]
-	)
+	).id('kubejs:extended/mote_of_omnium')
 
 	// exotic material catalyst
 	event.recipes.extendedcrafting.shaped_table(
@@ -195,7 +195,7 @@ ServerEvents.recipes(event => {
 			X: 'gtceu:hsss_ingot',
 			Y: 'gtceu:energetic_alloy_ingot'
 		}
-	)
+	).id('kubejs:extended/exotic_materials_catalyst')
 
 	// Angel Ring
     event.remove({ id: 'miniutilities:angel_ring_crafting' })
@@ -208,8 +208,8 @@ ServerEvents.recipes(event => {
             " AAA "
 		], {
 			A: 'gtceu:rose_gold_ingot',
-			B: Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:reinforced"}').strongNBT(),
-			C: Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:vibrant"}').strongNBT(),
+			B: Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:reinforced"}').weakNBT(),
+			C: Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:vibrant"}').weakNBT(),
 		} //, 2 // remove this comment to force t2 crafting only.
-	)
+	).id('kubejs:extended/angel_ring')
 })

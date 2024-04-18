@@ -7,47 +7,53 @@
 	icon: "ae2:controller"
 	id: "118959024F296F70"
 	order_index: 3
-	quest_links: [ ]
-	quests: [
+	quest_links: [
 		{
-			dependencies: ["46F708DD5000CFB5"]
-			description: [
-				"Fluix is initially made via in-world crafting, by dropping &6Redstone&r, &6Nether Quartz&r, and a &6Charged Certus Quartz Crystal&r in the same block of &9Water&r. You'll see some sparks then the items will merge into a &6Fluix Crystal&r. Be sure to turn off any nearby item magnets/collectors or they might interrupt this crafting process."
-				""
-				"The &3Energy Acceptor&r converts RF power into AE power that Applied Energistics uses, in a 2 RF to 1 AE ratio. This power will be transmitted through adjacent full-block ME Network devices, as well as along all connected &6ME Cables&r, &6ME Conduits&r, and &6Quartz Fiber&r. "
-				""
-				"Quartz Fiber are &emicroparts&r you can put between an ME Cable and any ME Network block or another ME Cable. This will allow transmission of AE power but not data, which is useful for having data-isolated ME Networks all sharing the same power source."
-				""
-				"If you have never used AE2 before (or just want to learn some tips and tricks) and you would like a video guide, check out &9Pansmith's Guide to Applied Energistics 2&r. While made for 1.12, nearly of the information contained in that guide will carry over to modern versions of AE2, and was made with &5Nomifactory&r players in mind."
-			]
-			disable_toast: true
-			id: "537C74D3CED36FC2"
+			id: "20253D681F399A92"
+			linked_quest: "6D03BB4A6A4BBA27"
+			shape: "hexagon"
+			x: -1.75d
+			y: -1.0d
+		}
+		{
+			id: "58FC19A7FB4407CE"
+			linked_quest: "4174A6C6403DD245"
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "0514B7047C571F1E"
-				item: "ae2:energy_acceptor"
-				type: "item"
-			}]
-			title: "Energy Acceptor"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["537C74D3CED36FC2"]
+			id: "14426BB19924AD5E"
+			linked_quest: "5C4E189A3E401566"
+			shape: "hexagon"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "3DE460B6056D9AD3"
+			linked_quest: "417D97D9E3562F45"
+			shape: "hexagon"
+			x: 2.5d
+			y: 7.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["4174A6C6403DD245"]
 			description: [
-				"Normally, this block acts as a source of &echannels&r, but those mechanics are disabled by default in &5Nomifactory&r."
+				"Normally, this block acts as a source of &echannels&r, but those mechanics are disabled by default in &5monifactory&r."
 				""
 				"You don't have to make this to operate a network when channels are disabled, but if you do, &eyour network will consume less power&r than if it did not have a Controller. Plus, they look kind of cool."
 				""
-				"Make sure you craft the AE2 one though, and not the one from &bChisel&r!"
+				"&mMake sure you craft the AE2 one though, and not the one from &bChisel&r!&r"
 				""
 				"Food for thought."
 			]
 			id: "7E59E0E33962D787"
 			rewards: [{
 				id: "6B2630325229A86A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "The &aME Controller&r acts as the `brain' and a bit of power storage for an &eME Network&r."
@@ -61,12 +67,12 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["537C74D3CED36FC2"]
+			dependencies: ["4174A6C6403DD245"]
 			description: ["Please note that all six variants of &6ME Terminals&r are &emicroparts&r, which means they need to be attached to an &6ME Cable&r (not conduit) to function."]
 			id: "41B4EA53D6D7AE37"
 			rewards: [{
 				id: "6BCE103B9FF87A10"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -86,7 +92,7 @@
 			id: "133FB7996362498C"
 			rewards: [{
 				id: "035F2955DB950CCA"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -105,38 +111,39 @@
 				"295E3D32083676E6"
 				"1F4D2DAF4267DB77"
 			]
-			description: [""]
+			description: ["&3Extended Inscribers&r are able to perform up to 4 inscribing jobs at the same time, allowing easier automation."]
 			id: "057D8689F19564AA"
 			rewards: [{
 				id: "56704F2D2C2EC831"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
-			subtitle: "&3Extended Inscribers&r are able to perform up to 4 inscribing jobs at the same time, allowing easier automation."
+			subtitle: "Not advanced, but extended"
 			tasks: [{
 				id: "58217F13FB40032C"
 				item: "expatternprovider:ex_inscriber"
 				type: "item"
 			}]
-			title: "&dExtended Inscribing"
-			x: 2.5d
-			y: 5.5d
+			title: "&9Extended Inscribing"
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
-				"537C74D3CED36FC2"
 				"7FC4297F2BC90F55"
-				"2DC8A214CEEE5CE3"
+				"4174A6C6403DD245"
+				"5C4E189A3E401566"
 			]
+			description: ["&3Inscribers&r are machines used to make &6inscribed circuits&r for &bApplied Energistics&r."]
 			id: "295E3D32083676E6"
 			rewards: [{
 				id: "0EE1CC6897B11687"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "&3Inscribers&r are machines used to make &6inscribed circuits&r for &bApplied Energistics&r."
+			subtitle: "Angry light forcing rocks to think"
 			tasks: [{
 				id: "3C32EC54A06596C3"
 				item: "ae2:inscriber"
@@ -151,7 +158,7 @@
 			id: "1F4D2DAF4267DB77"
 			rewards: [{
 				id: "52D7FCB9D1EC2573"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -165,7 +172,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["537C74D3CED36FC2"]
+			dependencies: ["4174A6C6403DD245"]
 			description: [
 				"These are the basic cables used by &3Applied Energistics&r to transport network connectivity. Due to the fact that channels are disabled, these cables will be your main method of transporting network connectivity, rather than the dense cables."
 				""
@@ -176,10 +183,11 @@
 			id: "1D3A5DCCE1B40D29"
 			rewards: [{
 				id: "6756AC34ADC4D223"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "AE Networking"
 			tasks: [{
 				id: "13B1ADE4FC0B56A6"
 				item: "ae2:fluix_glass_cable"
@@ -195,7 +203,7 @@
 			id: "474423E607A129DA"
 			rewards: [{
 				id: "53E441288FAE3708"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "&6ME Conduits&r have the advantage of being able to share a block space with other conduit types. Oh, and they're relatively cheaper to make."
@@ -217,7 +225,7 @@
 			id: "073533F489D121FF"
 			rewards: [{
 				id: "03C04EFD715AC3DF"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -240,7 +248,7 @@
 			id: "7FC4297F2BC90F55"
 			rewards: [{
 				id: "1FD63D376D9783AA"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			subtitle: "&aPresses&r are needed for &3Inscribers&r."
@@ -277,10 +285,11 @@
 				""
 				"Please note that while they're often in a big crater, the meteors might be buried underground; when the compass is spinning wildly, you're right on top of one."
 			]
+			hide_dependency_lines: true
 			id: "670C69611ECFF5C8"
 			rewards: [{
 				id: "7A90E3799F7D52FF"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -295,34 +304,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6D03BB4A6A4BBA27"]
-			description: [
-				"This device can be powered with RF via energy conduits or use AE energy from a network via ME conduits or cables."
-				""
-				"It accepts power from the top and the bottom, and can be wrenched to allow for easier automation."
-			]
-			disable_toast: true
-			icon: "ae2:charger"
-			id: "46F708DD5000CFB5"
-			shape: "hexagon"
-			subtitle: "The main purpose for this device is to turn &6Certus Quartz&r into &6Charged Certus Quartz Crystals&r."
-			tasks: [
-				{
-					id: "009756FEFCA1050F"
-					item: "ae2:charger"
-					type: "item"
-				}
-				{
-					id: "3298B26188504ECE"
-					item: "gtceu:charged_certus_quartz_gem"
-					type: "item"
-				}
-			]
-			title: "Charging Quartz"
-			x: -2.0d
-			y: -1.0d
-		}
-		{
 			dependencies: [
 				"073533F489D121FF"
 				"3AB0402B19DD5BA8"
@@ -335,7 +316,7 @@
 			id: "52837FD72580F141"
 			rewards: [{
 				id: "77DBDCDC57147C89"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -356,7 +337,7 @@
 			id: "0FD703A1A1E5055E"
 			rewards: [{
 				id: "128EF2992A9B077F"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -378,7 +359,7 @@
 				"Each P2P tunnel system may have only &cone input&r but &eany number of outputs&r. There is no limit on how many P2P tunnels, or P2P tunnel systems, you can have on one network."
 				""
 				"By default, a P2P tunnel is an &6ME tunnel&r, which transmits Applied Energistics channels and power. Since channels are disabled, you will most likely not be using the default tunnel. You can change the mode of your P2P tunnels by right clicking the tunnel with the respective item seen in &bREI&r."
-				""
+				"{@pagebreak}"
 				"To configure your P2P tunnels, take a &6Memory Card&r. While holding the memory card, &ashift-right click&r the unconfigured tunnel, to set the frequency of the input, and save the frequency to the memory card. Once the first tunnel has been set up this way and the memory card is configured with the frequency, any subsequent tunnel you &aright-click&r with the memory card will be set as the output of the most recent frequency used."
 				""
 				"You can also use memory cards to copy the configuration of ME blocks and tile-entities, such as &6Interfaces&r and &6Storage Buses&r. &aShift-right click&r a ME block to copy its configuration, and &aright-click&r to paste that configuration. Note that this doesn't copy upgrades applied to the block."
@@ -388,9 +369,10 @@
 			id: "410EA68D6EF15CEC"
 			rewards: [{
 				id: "47DF33E6869012F7"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
+			subtitle: "Network Recursion"
 			tasks: [{
 				id: "10CF79220AE28192"
 				item: {
@@ -407,12 +389,15 @@
 		{
 			dependencies: [
 				"1040D941027962B1"
-				"133FB7996362498C"
+				"0FD703A1A1E5055E"
 			]
-			description: ["This means you don't have to run to your ME Pattern Providers each time you make a new pattern for them."]
+			description: [
+				"This handy terminal allows you to see the pattern slots of all &aME Pattern Providers&r in your network in one place."
+				""
+				"This means you don't have to run to your ME Pattern Providers each time you make a new pattern for them."
+			]
 			id: "2E079747A46D48CF"
 			shape: "hexagon"
-			subtitle: "This handy terminal allows you to see the pattern slots of all &aME Pattern Providers&r in your network in one place."
 			tasks: [{
 				id: "2F7F08A819F2F81A"
 				item: "ae2:pattern_access_terminal"
@@ -435,7 +420,7 @@
 			id: "4A96659253CCFACF"
 			rewards: [{
 				id: "065F8DA1DEBFC21B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -452,96 +437,92 @@
 		{
 			dependencies: ["1040D941027962B1"]
 			description: ["This version of the Pattern Provider boosts the pattern capacity from 9 to 36. It can be made directly, or it can be upgraded to using a &6Pattern Provider Upgrade&r."]
+			icon: "expatternprovider:ex_pattern_provider"
 			id: "0FA4CAD4F68BC0F8"
 			rewards: [{
 				id: "7E1FD3C5FF6DCCAC"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "A very useful upgrade to the Pattern Provider."
 			tasks: [{
 				id: "1FE9B2CBA70D22B9"
-				item: "expatternprovider:ex_pattern_provider"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "expatternprovider:extended_pattern_provider"
+					}
+				}
+				title: "Any Extended Pattern Provider"
 				type: "item"
 			}]
-			title: "&dExtended Pattern Provider"
-			x: 5.5d
-			y: 8.5d
+			title: "&9Extended Pattern Provider"
+			x: 6.75d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1F4D2DAF4267DB77"]
 			description: [
-				"&aME Pattern Providers&r are extremely important for automation. You'll be making a lot of these, if you're playing the pack right."
+				"&aME Pattern Providers&r and &aME Interfaces&r are extremely important for automation. You'll be making a lot of these, if you're playing the pack right."
 				""
-				"These can be filled with encoded &aPatterns&r to perform on-demand autocrafting, and can be configured to stock up to &29 stacks of 512 items (or 4608 items)&r for passive autocrafting and to push into other inventories. Any item pushed into an ME Pattern Provider is digitized and placed in your ME Network storage."
+				"These can be filled with encoded &aPatterns&r to perform on-demand autocrafting. Any item pushed into an &aME Pattern Provider&r is digitized and placed in your ME Network storage."
 				""
-				"When adjacent to one or more &aMolecular Assemblers&r, crafting table patterns can be crafted. It will use as many adjacent Molecular Assemblers as possible, restricted by availability and number of &aCo-processors&r in your crafting CPU multiblock."
+				"When adjacent to one or more &aMolecular Assemblers&r, crafting table patterns can be crafted. It will use as many adjacent &aMolecular Assemblers&r as possible, restricted by availability and number of &aCo-processors&r in your crafting CPU multiblock."
+				"{@pagebreak}"
+				"When adjacent to any other block, you can use &aprocessing patterns&r with a machine to insert items into the machine. Processing patterns require that the finished item is inserted back into the ME Network through &aInterfaces&r or &aPattern Providers&r."
 				""
-				"When adjacent to any other block, you can use processing patterns with a machine to insert items into the machine. Processing patterns require that the finished item is inserted back into the ME Network by way of an ME Pattern Provider (though it doesn't need to be the same ME Interface the Pattern is in)."
-				""
-				"ME Pattern Providers can be wrenched to ensure they only communicate with a particular adjacent block, or can be crafted into a micropart form to fit multiple in the same block space (each micropart only interacting with the adjacent block face)."
+				"&aME Pattern Providers&r can be wrenched to ensure they only communicate with a particular adjacent block, or can be crafted into a micropart form to fit multiple in the same block space (each micropart only interacting with the adjacent block face)."
 				""
 				"Also, if you connect a gadget from &bBuilding Gadgets&r to the Pattern Provider, the gadget will pull materials straight from the attached AE2 network, &aNOT&r the Pattern Provider."
 				""
 				"There is information of the Gadgets, and how to connect them to inventories, in the &eInspector Gadget&r quest in &cGenesis&r in &cMatter Energy&r or &cThe Beginning&r."
 			]
+			icon: "ae2:pattern_provider"
 			id: "1040D941027962B1"
 			rewards: [{
 				id: "09745ACBA6FCC9E9"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "&dNote: This is a new block in modern versions of AE2, similar to the Interface."
+			subtitle: "&lNot&r An Interface"
 			tasks: [{
 				id: "24069DF90AE106FD"
-				item: "ae2:pattern_provider"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:pattern_provider"
+					}
+				}
+				title: "Any Pattern Provider"
 				type: "item"
 			}]
-			title: "&2ME Pattern Providers"
+			title: "&9Pattern Provider"
 			x: 5.5d
 			y: 7.0d
 		}
 		{
-			dependencies: ["417D97D9E3562F45"]
-			description: [
-				"&9Polyethylene (PE)&r is the most common category of plastic, made from polymers of &9Ethylene&r. Adding &9Oxygen&r in a &3Chemical Reactor&r recreates (with some artistic license) early accidental synthesis of Polyethylene."
-				""
-				"When you have large amounts of &6Rutile&r and &6Bauxite&r (probably after you visit the Moon) you can consider using &9Titanium Tetrachloride&r as a catalyst to improve your Polyethylene yields. For now it's not a great idea, as in addition to its Overworld rarity, you need it for &6Titanium&r."
-				""
-				"Form &6Polyethylene Sheets&r using a &3Fluid Solidifier&r and a &aPlate Mold&r for use in crafting electronics components. You'll need both the liquid and the sheets. For &9Polyethylene (PE)&r pipes, you can either pulverise your sheets into dust and use those in the extruder, or solidify &9Polyethylene (PE)&r into &6Polyethylene Bars&r seperately."
-			]
-			disable_toast: true
-			id: "0ABACC80121CBE64"
-			shape: "hexagon"
-			tasks: [{
-				id: "3B77B7FDAD76612F"
-				item: "gtceu:polyethylene_plate"
-				type: "item"
-			}]
-			title: "Polyethylene"
-			x: 2.5d
-			y: 7.0d
-		}
-		{
 			dependencies: [
-				"0ABACC80121CBE64"
 				"1040D941027962B1"
 				"4A96659253CCFACF"
+				"41D3154853B9F90C"
+				"417D97D9E3562F45"
 			]
 			description: [
 				"Encode them in a &aPattern Encoding Terminal&r."
 				""
 				"Note that recipes encoded with Substitutions on will use existing equivalent items, but &ewill only automatically craft the exact item specified in the recipe.&r"
 				""
-				"&2Aim for recipes without tools.&r"
+				"&2Preferably aim for recipes without tools.&r"
 				""
 				"Use recipes that use machines instead!"
 			]
 			id: "6F32A8739D8E792A"
 			rewards: [{
 				id: "23AA5139279F5F80"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -559,12 +540,12 @@
 		{
 			dependencies: ["6F32A8739D8E792A"]
 			description: [
-				"&bPackagedAuto&r is an addon for &bApplied Energistics 2&r. Its main purpose in &5Nomifactory&r is to allow you to eventually automate &bExtended Crafting&r recipes, but you may come up with other fun uses for it as well."
+				"&bPackagedAuto&r is an addon for &bApplied Energistics 2&r. Its main purpose in &5monifactory&r is to allow you to eventually automate &bExtended Crafting&r recipes, but you may come up with other fun uses for it as well."
 				""
 				"&bApplied Energistics 2&r stores recipes in &aPatterns&r, but so far they have been limited to at most 9 stacks of items as input (a standard 3x3 crafting grid). PackagedAuto stores recipes in &aPackage Recipe Holders&r, which don't have this limitation. Additionally, each Holder can store up to &e20 different recipes&r. Holders must be encoded in the &3Package Recipe Encoder&r."
 				""
 				"In the vast majority of situations you'll need two identically-encoded Holders, as the following machines work together."
-				""
+				"{@pagebreak}"
 				"The &3Packager&r is a machine that compresses ingredients for a specific recipe into a set of &6Recipe Packages&r. Each package in a set can hold up to 9 stacks of ingredient items. A simple recipe might consist of one package, but a complex recipe can have up to 9 packages in its set (for 81 total item stacks)."
 				""
 				"The &3Unpackager&r is a machine that extracts ingredient items from complete sets of Recipe Packages made in a Packager, ejecting the items into an adjacent inventory. It will only extract the items if &eall packages in a set are present&r."
@@ -577,7 +558,7 @@
 			id: "74469710D910C19D"
 			rewards: [{
 				id: "64AEDBCBECE58A67"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -608,7 +589,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["537C74D3CED36FC2"]
+			dependencies: ["4174A6C6403DD245"]
 			description: [
 				"If you've tried to insert or remove a lot of items quickly, you might notice your ME network"
 				"&eflickers offline&r briefly. This is because digitizing and re-materializing items requires energy!"
@@ -619,22 +600,46 @@
 				""
 				"If you've opted to enable channels in your AE2 configs, you will innately have some energy storage from the &3ME Controller&r, but we assume you know what you're doing at that point. &eAE2 Channels mechanics are outside the scope of the quest book, and this is the only time it will be mentioned."
 			]
+			icon: {
+				Count: 1b
+				id: "ae2:energy_cell"
+				tag: { }
+			}
 			id: "5A83E1115F965393"
+			subtitle: "Oops... A Blackout!"
 			tasks: [{
 				id: "714C125E0ED99334"
 				item: {
 					Count: 1b
-					id: "ae2:energy_cell"
-					tag: { }
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:energy_cell"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:dense_energy_cell"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:creative_energy_cell"
+							}
+						]
+					}
 				}
+				title: "Any Energy Cell"
 				type: "item"
 			}]
-			title: "Oops... A Blackout!"
+			title: "Energy Cell"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["537C74D3CED36FC2"]
+			dependencies: ["4174A6C6403DD245"]
 			description: [
 				"All unformatted Storage Cells are limited to at most 63 distinct item types, with the first item of each new type taking up a chunk of the total bytes of cell storage, and subsequent items of existing types taking a small number of bytes thereafter."
 				""
@@ -642,10 +647,15 @@
 				""
 				"The &64k ME Storage Cell&r is the next size up. With four times the bytes it holds substantially more items per type, but it requires a more advanced technology than you currently have available: AE &6Processors&r made in an &3Inscriber&r."
 			]
+			icon: {
+				Count: 1b
+				id: "ae2:item_storage_cell_1k"
+				tag: { }
+			}
 			id: "680C4363C268B223"
 			rewards: [{
 				id: "01567E99538B18BD"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -655,13 +665,42 @@
 				id: "631B9DD6D42ECBE4"
 				item: {
 					Count: 1b
-					id: "ae2:item_storage_cell_1k"
-					tag: { }
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_256k"
+								tag: { }
+							}
+						]
+					}
 				}
+				title: "Any Storage Cell"
 				type: "item"
 			}]
 			title: "Digital Storage At Last"
-			x: 1.5d
+			x: 2.25d
 			y: -4.0d
 		}
 		{
@@ -673,7 +712,7 @@
 			id: "72AFBEFCEAE86EC1"
 			rewards: [{
 				id: "7906B965172DE5A6"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "A component used primarily for making bigger &6Storage Cells&r."
@@ -691,7 +730,7 @@
 			id: "15AE607E2EDD0369"
 			rewards: [{
 				id: "428DE4E3DC126510"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "The third component for AE item &6Storage Cells&r."
@@ -710,7 +749,7 @@
 			id: "60BC08DE447E5007"
 			rewards: [{
 				id: "7417C31CB32C97BC"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "The penultimate item storage component in &bApplied Energistics&r."
@@ -736,25 +775,67 @@
 				"Set the Aqueous Accumulator&r to output at a fluid laser, configure that fluid laser to `output', add a fluid laser on your matter condensor set to `input', and connect them together."
 				""
 				"If you don't have that, you can surround it with &6Dense Cobblestone Generators&r."
+				"{@pagebreak}"
+				"After you have made the &eSingularity&r you will need from the &3Matter Condenser&r, you need to setup a &aQuantum Ring Multiblock&r. Build a 3 by 3 vertical ring with your &6Quantum Rings&r, leaving a hole in the middle. Finally, stick your &6Quantum Link Chamber&r in the hole, and connect it to your ME system. If you built it correctly, the textures of the rings should combine, leaving you with a &aMultiblock&r."
 				""
-				"After you have made the 2 &eSingularities&r you will need from the &3Matter Condenser&r, you need to setup a &aQuantum Ring Multiblock&r. Build a 3 by 3 vertical ring with your &6Quantum Rings&r, leaving a hole in the middle. Finally, stick your &6Quantum Link Chamber&r in the hole, and connect it to your ME system. If you built it correctly, the textures of the rings should combine, leaving you with a &aMultiblock&r."
+				"Once you have the &eSingularity&r, you have to link them by throwing Ender Dust, The Singularity into any explosion."
 				""
-				"With your 2 Singularities, put it into an &3Inscriber&r or an &3Advanced Inscriber&r with a &6Advanced Card&r, resulting in a &6Quantum Link Card&r. Finally, put that into the &6Quantum Link Chamber&r of the &aQuantum Ring&r, &cNOT the Wireless Terminal&r! "
+				"&9With your Quantum-entangled Singularity, put one into the&r &6Quantum Link Chamber&r&9 of the &r&aQuantum Ring&r&9, and the other in the&r &6Wireless Terminal&r! "
 				""
 				"You should be good to go! You can now access AE2 anywhere, including in different dimensions!"
 			]
+			icon: "ae2wtlib:quantum_bridge_card"
 			id: "553F85782265C350"
 			rewards: [{
+				count: 3
 				id: "7AB59D7B8BAD3529"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "Accessing AE2 from anywhere is a bit more expensive and complex, but its well worth it."
-			tasks: [{
-				id: "57FAC80FD751E691"
-				item: "ae2wtlib:quantum_bridge_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 3L
+					id: "65D3CCCAFE21F394"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "681C32866E09B6BC"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "742471AA41CC22DE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/ender"
+						}
+					}
+					title: "Ender Dust"
+					type: "item"
+				}
+				{
+					id: "788789B1F39AF853"
+					item: "ae2wtlib:quantum_bridge_card"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "39A413759D0B9F08"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "599291E42129E9D7"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
 			title: "AE2 Everywhere!"
 			x: 1.5d
 			y: -6.5d
@@ -767,25 +848,59 @@
 			description: [
 				"Accessing &bApplied Energistics 2&r wirelessly saves a huge amount of time, and is highly recommended to set up."
 				""
-				"First, you will need a &6Security Terminal&r, and a &6Wireless Access Point&r. Connect both to your network. Like the &6Terminal&r, the Wireless Access Point is a &emicropart&r, so you must place it on a &6ME Cable&r."
+				"First, you will need a &6Wireless Access Point&r. Connect it to your network. Like the &6Terminal&r, the Wireless Access Point is a &emicropart&r, so you must place it on a &6ME Cable&r."
 				""
 				"Next, you need a &6Wireless Terminal&r, or its varients. You can have as many Wireless Terminals or their varients on the system at the same time."
 				""
-				"Finally, put your &6Wireless Terminal&r into the &6Security Terminal&r. This will connect it to the system. "
-				""
+				"Finally, put your &6Wireless Terminal&r into the &6Wireless Access Point&r. This will connect it to the system. "
+				"{@pagebreak}"
 				"You can equip these as a bauble, and use a hotkey to open them. Search 'Applied Energistics' as a &ecategory&r to see and edit these hotkeys."
 				""
 				"You can only go 16 blocks away. However, you can put &6Wireless Boosters&r into the &6Wireless Access Point&r to increase the range. A better, but more expensive solution, that allows access from anyhere, will be explained in the following quest, 'AE2 Everywhere!'."
 			]
 			id: "1175ED9EF0AB82F6"
 			shape: "hexagon"
-			subtitle: "&oNote: this quest accepts the Wireless Terminal, Wireless Crafting Terminal, Wireless Pattern Terminal or Wireless Fluid Terminal.&r"
+			subtitle: "AE2 From Anywhere... Almost"
 			tasks: [{
 				id: "564AFB42CC6805FF"
-				item: "ae2:wireless_terminal"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:wireless_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:wireless_crafting_terminal"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2wtlib:wireless_pattern_encoding_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2wtlib:wireless_pattern_access_terminal"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:wireless_ex_pat"
+							}
+							{
+								Count: 1b
+								id: "ae2wtlib:wireless_universal_terminal"
+							}
+						]
+					}
+				}
+				title: "Any Wireless Terminal"
 				type: "item"
+				weak_nbt_match: true
 			}]
-			title: "AE2 From Anywhere... Almost"
+			title: "Wireless Terminal"
 			x: 0.0d
 			y: -6.5d
 		}
@@ -799,45 +914,23 @@
 			id: "241FADD2C751BE74"
 			rewards: [{
 				id: "20873793A4876A70"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
-			subtitle: "&dNew in Nomifactory Modern!&r"
+			subtitle: "&9New to Monifactory!&r"
 			tasks: [{
 				id: "11828E352A22BA71"
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			title: "&d256k Item Storage"
+			title: "&9256k Item Storage"
 			x: 3.5d
 			y: -8.0d
 		}
 		{
-			dependencies: ["5C4E189A3E401566"]
-			description: [
-				"You might notice that these hulls can be made more cheaply in an &3Assembling Machine&r, but you don't have that weird fluid. Don't worry, you'll be able to make that soon."
-				""
-				"&2Overclocking mechanics have changed in CEu. All overclocks now multiply the speed by 2.0x (instead of the 2.0/2.8 split in CE). This means that to save energy, you should build more low-tier machines over overclocking a high-tier machine, especially for passive processes."
-				"Additionally, ULV recipes will not overclock to LV. A ≤8 EU/t recipe won't overclock at all in an LV machine, will only overclock once in an MV machine, etc."
-			]
-			disable_toast: true
-			id: "2DC8A214CEEE5CE3"
-			shape: "hexagon"
-			size: 1.0d
-			subtitle: "Your first MV hull is as good of a place as any to consider yourself graduated from LV."
-			tasks: [{
-				id: "25E84FA82295A4D4"
-				item: "gtceu:mv_machine_hull"
-				type: "item"
-			}]
-			title: "&2MV Machine Hulls"
-			x: 2.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["6F32A8739D8E792A"]
 			description: [
-				"This quest teaches you the basics about &bApplied Energistics 2&r autocrafting. If you are new this mod, it is highly recommended that you watch a video or read a guide online. Just remember that channels are disabled by default in this pack."
+				"This quest teaches you the basics about &bApplied Energistics 2&r autocrafting. If you are new this mod, it is highly recommended that you watch a video or &9&lread the builtin guide&r&r. Just remember that channels are disabled by default in this pack."
 				""
 				"By now, you should have &6ME Pattern Providers, &6Molecular Assemblers, Crafting Units, Patterns&r and a &6Pattern Encoding Terminal&r. "
 				""
@@ -846,7 +939,7 @@
 				"* &6Co-Processing Units&r, which are used to craft multiple things at once. These are optional."
 				"* &6Crafting Monitors&r, used to see what is crafting. Not needed, and you can right-click on the CPU to find out what is crafting anyways, so this is pretty much just decoration."
 				"* &6Crafting Units&r, which aren't needed at all, and are just used to fill holes, if you have a lack of materials."
-				""
+				"{@pagebreak}"
 				"Second, you'll need the place for the autocrafting. For Crafting Table recipes, you'll need &6Molecular Assemblers&r. &6Pattern Providers&r are placed next to them. Autocrafting with &bGregTech&r is explained later, in the quest following this one."
 				""
 				"Finally, you'll need a &6Pattern&r. In order to make this, put empty &6Patterns&r in the &6Pattern Encoding Terminal&r, and find the recipe in &bREI&r, while still in the &6Pattern Encoding Terminal&r. Then, click '+' in &bREI&r, and press the arrow to encode the recipe. This goes in the &6Interface&r that you set up in the last step. You can use &6Interface Terminals&r to access &6Interfaces'&r pattern slots."
@@ -872,6 +965,11 @@
 			dependency_requirement: "one_completed"
 			description: ["It's a micropart, so you need to place it on &6ME Cable&r (not a conduit)."]
 			id: "480EE330E12084E8"
+			rewards: [{
+				id: "26AC32A839C6603B"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
 			subtitle: "As the name suggests, this terminal lets you encode recipes onto &aBlank Patterns&r."
 			tasks: [{
 				id: "39CFFF1B37F39741"
@@ -888,7 +986,7 @@
 				"Now that you have &6Osmium&r and &6Iridium&r from the &6Tier Four Micro Miner&r or &6Platinum Group Processing&r, you can begin automating &bExtended Crafting&r recipes. While it is possible to use &6Auto Crafting Tables&r for this task, you have access to something &ovastly&r better&r: &bPackagedExCrafting&r."
 				""
 				"To begin, you'll need to craft one of each extended &3Package Crafter&r listed on the right. Put an &3Unpackager&r on top of each one, and then a &3Packager&r anywhere you want. These are all AE2 devices, so you'll need to connect them to an ME Network."
-				""
+				"{@pagebreak}"
 				"Next, right-click the &3Package Recipe Encoder&r, and you should see a button saying \"Processing\": this button cycles through recipe types, including the various Extended Crafting tables. You'll have to choose the appropriate table for the recipe you want to encode."
 				""
 				"&6Holders&r must be encoded in pairs: one for the Packager, and one for the Unpackager. Select the appropriate table for the recipe, look up the recipe you want to encode, and press &6[+]&r in &bREI&r to fill it in. Put two Holders in the top-left slot and press Save to encode the recipe to both of them. Finally, put each Holder into the respective machines."
@@ -901,7 +999,7 @@
 			id: "70D9B3C6539720DE"
 			rewards: [{
 				id: "083A8F49762A37FE"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -937,7 +1035,7 @@
 					type: "item"
 				}
 			]
-			title: "&dAutomating Extended Crafting"
+			title: "&9Automating Extended Crafting"
 			x: 2.5d
 			y: 11.5d
 		}
@@ -951,7 +1049,7 @@
 				"You can also permit input from the output side by shift-right-clicking with a screwdriver on the output side via the machine grid."
 				""
 				"Right-click the machine and enable item auto-output (&6orange box&r in the bottom-left corner of the GUI)."
-				""
+				"{@pagebreak}"
 				"Now, stuff the ME Pattern Provider with processing patterns. The next time you order an item, the ME Pattern Provider will push ingredients into the machine, and the machine will push outputs back into the Pattern Provider once they're ready, completing the craft. No need to use conduits or import buses!"
 				""
 				"Furthermore, you can use Blocking Mode, which ensures that no items are in the inventory before placing the items in, which is a handy way to prevent conflicts. Even better, blocking mode now ignores Programmable Circuits and Molds! Please note that non-consumable items should stay in the machine, and not be included in the pattern made. Yes, this means you should make a seperate machine for each non-consumable, as well as fluids, at least until you get PAs and Large Machines."
@@ -979,7 +1077,7 @@
 			id: "73908E06B75B9C9E"
 			rewards: [{
 				id: "2C0AE427B898F09B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -987,7 +1085,7 @@
 				item: "expatternprovider:pattern_modifier"
 				type: "item"
 			}]
-			title: "&dMastering Patterns"
+			title: "&9Mastering Patterns"
 			x: 4.0d
 			y: 11.5d
 		}
@@ -997,7 +1095,7 @@
 			id: "26C9F1514FD08C81"
 			rewards: [{
 				id: "144A810C0576A3E0"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "It doesn't get any faster than this."
@@ -1031,7 +1129,7 @@
 					type: "item"
 				}
 			]
-			title: "&dInfinitest Water and Stone"
+			title: "&9Infinitest Water and Stone"
 			x: 5.5d
 			y: -8.0d
 		}
@@ -1040,35 +1138,218 @@
 			description: ["The &6Extended Molecular Assembler&r is able to perform &a8 crafts at a time&r, and does each of those crafts &atwice as fast&r, meaning this assembler can do some serious work."]
 			id: "631F5DFF43F7A289"
 			rewards: [{
+				count: 2
 				id: "5192D40270BCED13"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
+			subtitle: "More Parallel Crafting"
 			tasks: [{
 				id: "0671F628E93E9BA6"
 				item: "expatternprovider:ex_molecular_assembler"
 				type: "item"
 			}]
-			title: "&dExtended Assembling"
+			title: "&9Extended Assembling"
 			x: 4.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["537C74D3CED36FC2"]
+			dependencies: ["4174A6C6403DD245"]
 			description: [
 				"&6Certus quartz&r can be grown from &6Budding Certus Quartz&r blocks!"
 				""
-				"Check out the ingame guide for specifics on how to get this set up."
+				"Check out the &9&lingame guide&r&r or &eG&r on the item for specifics on how to get this set up."
 			]
 			icon: "ae2:flawless_budding_quartz"
 			id: "62356B88D5366D33"
-			tasks: [{
-				id: "01CD6B1C9EF82A30"
-				type: "checkmark"
+			rewards: [{
+				id: "09657E2A5EDEAD21"
+				item: "kubejs:moni_nickel"
+				type: "item"
 			}]
-			title: "&dCrystal Growing"
+			subtitle: "Just Like Amethyst"
+			tasks: [
+				{
+					id: "3EBBAF2494BBA8A8"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:flawless_budding_quartz"
+								}
+								{
+									Count: 1b
+									id: "ae2:flawed_budding_quartz"
+								}
+								{
+									Count: 1b
+									id: "ae2:chipped_budding_quartz"
+								}
+								{
+									Count: 1b
+									id: "ae2:damaged_budding_quartz"
+								}
+							]
+						}
+					}
+					title: "Any Budding Certus Quartz"
+					type: "item"
+				}
+				{
+					id: "6EBAD6BD1B9AEAF8"
+					item: "ae2:growth_accelerator"
+					type: "item"
+				}
+			]
+			title: "&9Crystal Growing"
 			x: -2.0d
 			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6F32A8739D8E792A"
+				"1F4D2DAF4267DB77"
+			]
+			description: ["These can be configured to stock up to &99 item stacks (or 576 items)&r or &99 fluid types, 4 buckets each&r for passive autocrafting and to push into other inventories&r. Any item pushed into an &aME Interface&r is digitized and placed in your ME Network storage."]
+			icon: "ae2:interface"
+			id: "3A26187DC3FAD6B1"
+			rewards: [{
+				id: "11FCD1E7CB0591FD"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&9I dont hold patterns!"
+			tasks: [{
+				id: "713C7B1C67D4771E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:interface"
+					}
+				}
+				title: "Any Interface"
+				type: "item"
+			}]
+			title: "Interface"
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3A26187DC3FAD6B1"]
+			description: ["This version of &aME Interface&r acts like four ME Interfaces in one block, allowing for 1152 items or 72 buckets of fluids."]
+			icon: "expatternprovider:ex_interface"
+			id: "5B3AF79FBDF80C51"
+			rewards: [{
+				id: "2A1749A1B9A9A568"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "Neither do I, check my neighbour Extended Pattern Provider instead"
+			tasks: [{
+				id: "53C8B8B483EF6121"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "expatternprovider:extended_interface"
+					}
+				}
+				title: "Any Extended Interface"
+				type: "item"
+			}]
+			title: "&9Extended Interface"
+			x: 6.75d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"41B4EA53D6D7AE37"
+				"133FB7996362498C"
+			]
+			description: [
+				"Crafting in a digital grid is heaven after using primitive wooden tables for so long."
+				""
+				"It's a micropart, so you need to place it on &6ME Cable&r (not a conduit)."
+			]
+			id: "4BEC129D530376BF"
+			rewards: [{
+				id: "4550C9AD2B35E845"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Bye-bye Crafting Table"
+			tasks: [{
+				id: "391327778690A86F"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			title: "Crafting Terminal"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A26187DC3FAD6B1"]
+			description: [
+				"Combining an &aI/O Bus&r and an &aME Interface&r into a single block, these can be used in place of &aInput&r and &aOutput Buses&r in GregTech multiblocks to connect them directly to your AE2 network."
+				""
+				"Note that only the Interface-textured side will connect to an ME network."
+			]
+			id: "7C0A37EEA3C63B16"
+			rewards: [{
+				id: "7DF64C08A341B4AF"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "67018C3628F6AA24"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "6A6D12DC7ADBC535"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "19211C6E40FAAE15"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "7EDACCC96A13BFB0"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+			]
+			title: "&2ME Multiblock Buses"
+			x: 6.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["52837FD72580F141"]
+			description: ["The &aExtended Drive&r allows to store up to 20 Storage Disks"]
+			id: "58F73E3D1069F52C"
+			rewards: [{
+				count: 2
+				id: "4B04D0BB11CF2389"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "Dense Storage"
+			tasks: [{
+				id: "6553F798A482EEDE"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
 		}
 	]
 	title: "Matter-Energy"

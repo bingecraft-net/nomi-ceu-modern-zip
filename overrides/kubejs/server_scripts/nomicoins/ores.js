@@ -1,13 +1,13 @@
 ServerEvents.recipes(event => {
 
-    //NOMIPENNY RECIPES
+    //moniPENNY RECIPES
     event.shaped(
         Item.of('minecraft:clay_ball', 64), [
         'AAA',
         '  A',
         '   '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
         'AAA',
         '  A'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
         'AAA',
         '  A'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         'AAA',
         '  A'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         'AAA',
         'A  '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
         'AAA',
         ' A '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
         'AAA',
         ' AA'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
         '  A',
         'AAA'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
         '   ',
         'AAA'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
         '  A',
         'AAA'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
         ' AA',
         'AAA'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
         '  A',
         'AA '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
         ' AA',
         'A  '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
         'AAA',
         '   '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
         '   ',
         ' AA'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -142,7 +142,7 @@ ServerEvents.recipes(event => {
         '   ',
         'AA '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -151,7 +151,7 @@ ServerEvents.recipes(event => {
         ' AA',
         '   '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -160,7 +160,7 @@ ServerEvents.recipes(event => {
         'A  ',
         '  A'
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -169,7 +169,7 @@ ServerEvents.recipes(event => {
         'A  ',
         ' A '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -178,7 +178,7 @@ ServerEvents.recipes(event => {
         'A  ',
         'A  '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -187,7 +187,7 @@ ServerEvents.recipes(event => {
         'A A',
         '   '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -196,17 +196,17 @@ ServerEvents.recipes(event => {
         'AA ',
         '   '
     ], {
-        A: 'kubejs:nomi_penny'
+        A: 'kubejs:moni_penny'
     }).noMirror().noShrink()
 
-    //NOMINICKEL RECIPES
+    //moniNICKEL RECIPES
     event.shaped(
         Item.of('gtceu:rubber_sapling', 32), [
         'A A',
         'A  ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -215,7 +215,7 @@ ServerEvents.recipes(event => {
         'A A',
         ' A '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -224,7 +224,7 @@ ServerEvents.recipes(event => {
         'AA ',
         '  A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -233,7 +233,7 @@ ServerEvents.recipes(event => {
         'AA ',
         ' A '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -242,7 +242,7 @@ ServerEvents.recipes(event => {
         'AA ',
         'A  '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -251,7 +251,7 @@ ServerEvents.recipes(event => {
         'AA ',
         'A A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -260,7 +260,7 @@ ServerEvents.recipes(event => {
         'AA ',
         'AAA'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -269,7 +269,7 @@ ServerEvents.recipes(event => {
         'AAA',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -278,7 +278,7 @@ ServerEvents.recipes(event => {
         'A  ',
         ' A '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -287,7 +287,7 @@ ServerEvents.recipes(event => {
         '   ',
         ' A '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -296,7 +296,7 @@ ServerEvents.recipes(event => {
         '   ',
         '  A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -305,7 +305,7 @@ ServerEvents.recipes(event => {
         '  A',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -314,7 +314,7 @@ ServerEvents.recipes(event => {
         '   ',
         'A  '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -323,7 +323,7 @@ ServerEvents.recipes(event => {
         ' A ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -332,7 +332,7 @@ ServerEvents.recipes(event => {
         'A  ',
         'A  '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -341,7 +341,7 @@ ServerEvents.recipes(event => {
         'A A',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -350,7 +350,7 @@ ServerEvents.recipes(event => {
         'AA ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -359,7 +359,7 @@ ServerEvents.recipes(event => {
         '  A',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -368,7 +368,7 @@ ServerEvents.recipes(event => {
         'AAA',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
         ' A ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -386,7 +386,7 @@ ServerEvents.recipes(event => {
         'A  ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -395,7 +395,7 @@ ServerEvents.recipes(event => {
         'A  ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -404,7 +404,7 @@ ServerEvents.recipes(event => {
         '   ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -413,7 +413,7 @@ ServerEvents.recipes(event => {
         'AAA',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     /*event.shaped(
@@ -425,7 +425,7 @@ ServerEvents.recipes(event => {
         ' AA'
       ],
       {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
       }).noMirror().noShrink()*/
 
     event.shaped(
@@ -434,7 +434,7 @@ ServerEvents.recipes(event => {
         '   ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -443,7 +443,7 @@ ServerEvents.recipes(event => {
         '   ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -452,7 +452,7 @@ ServerEvents.recipes(event => {
         'A  ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -461,7 +461,7 @@ ServerEvents.recipes(event => {
         ' A ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -470,7 +470,7 @@ ServerEvents.recipes(event => {
         '  A',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -479,7 +479,7 @@ ServerEvents.recipes(event => {
         '   ',
         'A  '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -488,7 +488,7 @@ ServerEvents.recipes(event => {
         '   ',
         ' A '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -497,7 +497,7 @@ ServerEvents.recipes(event => {
         '   ',
         '  A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -506,7 +506,7 @@ ServerEvents.recipes(event => {
         '   ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -515,7 +515,7 @@ ServerEvents.recipes(event => {
         'A  ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -524,7 +524,7 @@ ServerEvents.recipes(event => {
         ' A ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -533,7 +533,7 @@ ServerEvents.recipes(event => {
         '  A',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -542,7 +542,7 @@ ServerEvents.recipes(event => {
         '   ',
         'A  '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -551,7 +551,7 @@ ServerEvents.recipes(event => {
         '   ',
         ' A '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -560,7 +560,7 @@ ServerEvents.recipes(event => {
         '   ',
         '  A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -569,7 +569,7 @@ ServerEvents.recipes(event => {
         'A  ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -578,7 +578,7 @@ ServerEvents.recipes(event => {
         ' A ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -587,7 +587,7 @@ ServerEvents.recipes(event => {
         '  A',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -596,7 +596,7 @@ ServerEvents.recipes(event => {
         '   ',
         'A  '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -605,7 +605,7 @@ ServerEvents.recipes(event => {
         '   ',
         ' A '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -614,7 +614,7 @@ ServerEvents.recipes(event => {
         '   ',
         '  A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -623,7 +623,7 @@ ServerEvents.recipes(event => {
         'AA ',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -632,7 +632,7 @@ ServerEvents.recipes(event => {
         'A A',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -641,7 +641,7 @@ ServerEvents.recipes(event => {
         'A  ',
         'A  '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -650,7 +650,7 @@ ServerEvents.recipes(event => {
         'A  ',
         ' A '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     /*event.shaped(
@@ -662,7 +662,7 @@ ServerEvents.recipes(event => {
         '   '
       ],
       {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
       }).noMirror().noShrink()*/
 
     event.shaped(
@@ -671,7 +671,7 @@ ServerEvents.recipes(event => {
         'A  ',
         '  A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -680,7 +680,7 @@ ServerEvents.recipes(event => {
         ' AA',
         '   '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -689,16 +689,16 @@ ServerEvents.recipes(event => {
         ' A ',
         'A  '
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
-    //NOMIQUARTER RECIPES
+    //moniQUARTER RECIPES
     event.shaped(
         Item.of('gtceu:gold_ore', 32), [
         'A A',
         '   ',
         '   '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -707,7 +707,7 @@ ServerEvents.recipes(event => {
         '   ',
         'A  '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -716,7 +716,7 @@ ServerEvents.recipes(event => {
         '   ',
         ' A '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -725,7 +725,7 @@ ServerEvents.recipes(event => {
         '   ',
         '   '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -734,7 +734,7 @@ ServerEvents.recipes(event => {
         '   ',
         '  A'
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -743,7 +743,7 @@ ServerEvents.recipes(event => {
         '   ',
         '   '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -752,7 +752,7 @@ ServerEvents.recipes(event => {
         '  A',
         '   '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -761,7 +761,7 @@ ServerEvents.recipes(event => {
         ' A ',
         '   '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -770,7 +770,7 @@ ServerEvents.recipes(event => {
         'A  ',
         '   '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -779,7 +779,7 @@ ServerEvents.recipes(event => {
         'AA ',
         '   '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -788,6 +788,6 @@ ServerEvents.recipes(event => {
         '  A',
         'A  '
     ], {
-        A: 'kubejs:nomi_quarter'
+        A: 'kubejs:moni_quarter'
     }).noMirror().noShrink()
 })

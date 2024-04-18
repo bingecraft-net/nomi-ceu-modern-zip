@@ -16,20 +16,20 @@
 				""
 				"&bGregTech&r machines are built from a number of components, many of which are shared between the machines. Motors&r are used in a great number of recipes, even including other components."
 				""
-				"The Wiremill requires a &6Programmed Circuit&r to run. Each machine comes with a free one - click on the circuit slot in the &dbottom right &rof the GUI. For making single wires, leave the circuit at &econfiguration 1&r. Refer to &eJEI&r for which circuit config a recipe calls for, and refer to the adjacent quest for more information."
+				"The Wiremill requires a &6Programmed Circuit&r to run. Each machine comes with a free one - click on the circuit slot in the &9bottom right &rof the GUI. For making single wires, leave the circuit at &econfiguration 1&r. Refer to &eJEI&r for which circuit config a recipe calls for, and refer to the adjacent quest for more information."
 				"{@pagebreak}"
 				"After you make the Wiremill, &econsider making a few stacks&r of LV motors. This might sound extreme, but &ebatch crafting&r in this manner is an important habit to pick up. This way you won't have to craft more for a while, and you &owill &ruse all those motors eventually, so you're not wasting materials."
 				""
 				"As you get access to more machinery you will no longer need to craft things manually. Instead, you will engineer factories to automate the production for you. It is useful to keep a stockpile of frequently used things like circuits and components crafted so you don't have to wait for them when you need them."
 				""
-				"&2If the machine sounds start to get on your nerves, you can mute GT machines with a GT Hammer, &dor mute the sound entirely in the ESM menu, accessable from your inventory."
+				"&2If the machine sounds start to get on your nerves, you can mute GT machines with a GT Hammer, &9or mute the sound entirely in the ESM menu, accessable from your inventory."
 			]
 			icon: "gtceu:lv_electric_motor"
 			id: "62BBD1F6767A4D90"
 			rewards: [{
 				count: 2
 				id: "33683A0D0F389BD0"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -62,7 +62,7 @@
 			id: "19233A97579E0BDD"
 			rewards: [{
 				id: "12A2FD239F76B646"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -73,7 +73,7 @@
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "nomi:polarizer"
+						value: "moni:polarizer"
 					}
 				}
 				title: "LV or MV Polarizer"
@@ -89,7 +89,7 @@
 			id: "1FF652D16CE97C79"
 			rewards: [{
 				id: "718769C41EB34A2D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -113,7 +113,7 @@
 				""
 				"For example, the &3Wiremill&r produces different thicknesses of &6wires&r depending on the config - &ecircuit 1&r produces &61x wires&r, &ecircuit 4&r produces &64x wires&r, etc. The &eJEI&r recipe will tell you which circuit configuration is required."
 				"{@pagebreak}"
-				"Each machine and item input bus comes with a &2free \"ghost circuit\"&r. Click the circuit slot on the &dbottom right&r of the GUI to access this ghost circuit. Left- and right-click or scroll to adjust the configuration. "
+				"Each machine and item input bus comes with a &2free \"ghost circuit\"&r. Click the circuit slot on the &9bottom right&r of the GUI to access this ghost circuit. Left- and right-click or scroll to adjust the configuration. "
 				""
 				"That said, the Programmed Circuit item (crafted from a single &6LV Circuit&r) still has its uses:"
 				""
@@ -163,7 +163,7 @@
 			id: "6197C51E04761371"
 			rewards: [{
 				id: "2C089F5BA39C3864"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -188,7 +188,7 @@
 			id: "055193574D203872"
 			rewards: [{
 				id: "434A32B85AEC20E3"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -207,7 +207,7 @@
 			id: "7A12743F5ECCED90"
 			rewards: [{
 				id: "60DD7C7B1FC64B80"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -228,7 +228,7 @@
 			id: "2A84013C14085C7B"
 			rewards: [{
 				id: "1344CFC701E35C5F"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -255,12 +255,12 @@
 				"- &6Small Springs&r from one Rod"
 				"- &6Springs&r from one Long Rod. "
 				"&r"
-				"If you played the CE version of &dNomifactory&r, note that the functions of the &3Compressor&r (for making Plates) and &3Cluster Mill&r are merged into this machine."
+				"If you played the CE version of &9monifactory&r, note that the functions of the &3Compressor&r (for making Plates) and &3Cluster Mill&r are merged into this machine."
 			]
 			id: "3EDD0A986384F2A7"
 			rewards: [{
 				id: "0AE3BBBCE40C2F66"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -276,19 +276,19 @@
 		{
 			dependencies: ["7A12743F5ECCED90"]
 			description: [
-				"Great for automatically converting between Nuggets, Ingots, and Blocks of metals, or simply storing massive amounts of things. Also works with &dNomicoins&r."
+				"Great for automatically converting between Nuggets, Ingots, and Blocks of metals, or simply storing massive amounts of things. Also works with &9monicoins&r."
 				""
 				"The appearance can be customized by crafting the drawer into &aFramed Compacting Drawer&r and putting it into a &aFraming Table&r, or using a &aHand Framing Tool&r."
 			]
 			id: "7460F22545A4EFB2"
 			rewards: [{
 				id: "46EA0B4F09642C8E"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
 				id: "05CB7EE672B034D4"
-				item: "storagedrawers:compacting_drawers_3"
+				item: "functionalstorage:compacting_drawer"
 				type: "item"
 			}]
 			title: "Compacting Drawers"
@@ -355,7 +355,7 @@
 			id: "4685AC9E6CD87B77"
 			rewards: [{
 				id: "06A7DC04EEC732E1"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -401,7 +401,7 @@
 			id: "4EAD8756BAAC6B2E"
 			rewards: [{
 				id: "068F5B92B80B6864"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -418,7 +418,7 @@
 			id: "09C0CDC1DFA7842D"
 			rewards: [{
 				id: "1A7962BB3B58AA55"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			tasks: [{
@@ -507,7 +507,7 @@
 			id: "404C9497C46E7608"
 			rewards: [{
 				id: "2CB59A2F31238EFF"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -600,7 +600,7 @@
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
-							Trophy: "nomiceu:steel"
+							Trophy: "moniceu:steel"
 						}
 					}
 				}
@@ -628,7 +628,7 @@
 			id: "3F6EDC2481D5877F"
 			rewards: [{
 				id: "7502BCDFFE6C0499"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -652,7 +652,7 @@
 			id: "29A487F0BC43AAF9"
 			rewards: [{
 				id: "0C69338204BAC2F3"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -676,7 +676,7 @@
 			id: "46AF35D4EECA5BDB"
 			rewards: [{
 				id: "177319DF620B0BAC"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -688,7 +688,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dInfiniter Water"
+			title: "&9Infiniter Water"
 			x: 1.0357142857142563d
 			y: -0.4761904761904816d
 		}
@@ -736,7 +736,7 @@
 			id: "500E619D568C07C2"
 			rewards: [{
 				id: "028645C412CA6B28"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -760,7 +760,7 @@
 			id: "4624889F738AB21B"
 			rewards: [{
 				id: "2AFEC339114B90DE"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -768,7 +768,7 @@
 				item: "thermal:device_rock_gen"
 				type: "item"
 			}]
-			title: "&dInfinite Cobblestone"
+			title: "&9Infinite Cobblestone"
 			x: 4.5d
 			y: -6.0d
 		}
@@ -778,7 +778,7 @@
 			id: "0EDFB0C24B9129AB"
 			rewards: [{
 				id: "6BE647D018E97BB3"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -803,7 +803,7 @@
 			id: "645B1DCB3DA7198A"
 			rewards: [{
 				id: "2D12B468C7630D14"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -842,7 +842,7 @@
 			id: "715BC5C7DAC53B7B"
 			rewards: [{
 				id: "518DD0C9237B4DBC"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -885,7 +885,7 @@
 			rewards: [{
 				count: 7
 				id: "6B113D9EF57E5CDE"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			size: 2.0d
@@ -933,7 +933,7 @@
 			id: "025543EDB0A4AC22"
 			rewards: [{
 				id: "2E05259B781807C7"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -958,7 +958,7 @@
 			id: "74B5CA5A48CE7B39"
 			rewards: [{
 				id: "0BF9F19C54FA7B41"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -976,7 +976,7 @@
 			id: "1CA6D620309F2B9E"
 			rewards: [{
 				id: "67D69429C7C3148B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1012,7 +1012,7 @@
 			rewards: [{
 				count: 2
 				id: "4990CA3675F1EDAC"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -1040,7 +1040,7 @@
 			id: "1657FEC07998C9D0"
 			rewards: [{
 				id: "67FF2BDD5D4AC075"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			tasks: [{
@@ -1065,15 +1065,15 @@
 				""
 				"This device can be powered with RF via energy conduits or use AE energy from a network via ME conduits or cables."
 				""
-				"It accepts power from &dfive&r sides. Which &dfive&r sides? It's pretty easy to guess."
+				"It accepts power from &9five&r sides. Which &9five&r sides? It's pretty easy to guess."
 				""
-				"You can also early automate charging by having hoppers input item from top or sides, and pull items from the bottom."
+				"You can also easily automate charging by having hoppers input item from top or sides, and pull items from the bottom."
 			]
-			icon: "gtceu:certus_quartz_gem"
+			icon: "ae2:charger"
 			id: "6D03BB4A6A4BBA27"
 			rewards: [{
 				id: "4450EEE7F4D93EF0"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1106,14 +1106,23 @@
 				"The &3Energy Acceptor&r converts RF power into AE power that Applied Energistics uses, in a 2 RF to 1 AE ratio. This power will be transmitted through adjacent full-block ME Network devices, as well as along all connected &6ME Cables&r, &6ME Conduits&r, and &6Quartz Fiber&r. "
 				""
 				"Quartz Fiber are &emicroparts&r you can put between an ME Cable and any ME Network block or another ME Cable. This will allow transmission of AE power but not data, which is useful for having data-isolated ME Networks all sharing the same power source."
+				""
+				"Applied Energistics 2 can be complicated for a new player, so I recommend either using &9the ingame guide&r or a video as a supplement to this chapter if need be. I personally recommend &9Pansmith's guide to Applied Energistics 2&r, while written for the 1.12 verison of AE2, most of the infomation is the exact same between the versions, and was made with &9Monifactory&r players in mind."
 			]
 			icon: "ae2:energy_acceptor"
 			id: "4174A6C6403DD245"
-			rewards: [{
-				id: "67642A41B1F7F4E8"
-				item: "kubejs:nomi_nickel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "67642A41B1F7F4E8"
+					item: "kubejs:moni_nickel"
+					type: "item"
+				}
+				{
+					id: "2EAC8635F1C7A8DB"
+					item: "ae2:guide"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -1141,7 +1150,7 @@
 			id: "7842EC1C389C4B7E"
 			rewards: [{
 				id: "257A2797BA4F9A4F"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -1163,7 +1172,7 @@
 			id: "2845151447537433"
 			rewards: [{
 				id: "38218FE6AA47BF71"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -1206,7 +1215,7 @@
 			id: "3A18C673D76382E9"
 			rewards: [{
 				id: "444D3A12D42D30E5"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -1234,7 +1243,7 @@
 			id: "5B0200011DF8E1B6"
 			rewards: [{
 				id: "3E616B7D43C03186"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1266,22 +1275,20 @@
 			id: "6FE99EDDC6223F2E"
 			rewards: [{
 				id: "3B5D99034C7CD3F4"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [
 				{
-					amount: 1000L
-					fluid: "gtceu:hydrogen"
-					id: "3811A2C3181FBC0D"
-					type: "fluid"
+					id: "47392B270D61CD4C"
+					item: "gtceu:hydrogen_bucket"
+					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "gtceu:oxygen"
-					id: "6732F515AE6C060A"
-					type: "fluid"
+					id: "7F2D244D03684EB3"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
 				}
 			]
 			title: "Hydrogen and Oxygen"
@@ -1308,7 +1315,7 @@
 			id: "15808BD9C5DBA0F7"
 			rewards: [{
 				id: "3A6C03B13D469DDC"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -1330,7 +1337,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "&dBetter Backpacks"
+			title: "&9Better Backpacks"
 			x: 4.5d
 			y: 3.5d
 		}
@@ -1349,7 +1356,7 @@
 			id: "4CD6C60CBEFFA317"
 			rewards: [{
 				id: "3E688257A7E030CE"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1382,7 +1389,7 @@
 			rewards: [
 				{
 					id: "5155898EDA908A3F"
-					item: "kubejs:nomi_nickel"
+					item: "kubejs:moni_nickel"
 					type: "item"
 				}
 				{
@@ -1392,7 +1399,7 @@
 						id: "trofers:large_pillar"
 						tag: {
 							BlockEntityTag: {
-								Trophy: "nomiceu:alumnium"
+								Trophy: "moniceu:alumnium"
 							}
 						}
 					}
@@ -1432,7 +1439,7 @@
 			id: "1BC6DDC2D50F9C46"
 			rewards: [{
 				id: "3B20DB4147336C51"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1511,7 +1518,7 @@
 			id: "6A914B240E1A7BCB"
 			rewards: [{
 				id: "38132DACC54B8BA2"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1533,7 +1540,7 @@
 			id: "73C1AB31431B5C11"
 			rewards: [{
 				id: "461858A607CACCE1"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1557,7 +1564,7 @@
 			id: "4F4F120AFB3A9250"
 			rewards: [{
 				id: "48BA7A02C52B204C"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1614,7 +1621,7 @@
 			id: "5C4E189A3E401566"
 			rewards: [{
 				id: "09F16C5C9CFFEF84"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1643,7 +1650,7 @@
 			id: "1DBBE96165C7987D"
 			rewards: [{
 				id: "34F7C473C934087B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1670,7 +1677,7 @@
 			id: "56924FC6B029BA0F"
 			rewards: [{
 				id: "0567EE8C4FB9F984"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -1695,13 +1702,13 @@
 				""
 				"- &aMaintenance&r: You will need to do Maintenance for the Multiblock to begin operating. This is done by having a &9Wrench&r, a &9Screwdriver&r, a &9Soft Mallet&r, a &9Hammer&r, a &9Wire Cutter&r, and a &9Crowbar&r in your inventory, opening the Maintenance Hatch and &eclicking the center spot once&r. &cNo need to move tools individually&r. Alternatively, you can fix problems by placing &9Tape&r in the Maintenance Hatch. "
 				""
-				"Maintenance problems may occur after &d48 real hours of activity&r. Needless to say, they are very rare. Each problem increases the recipe durations by 10%%. Fixing the problems is done the same way as above."
+				"Maintenance problems may occur after &948 real hours of activity&r. Needless to say, they are very rare. Each problem increases the recipe durations by 10%%. Fixing the problems is done the same way as above."
 				""
 				"Later, you will unlock other Maintenance Hatches that do not enforce fixing the problems manually. Both start with &6no Maintenance required&r:"
 				""
-				"- &3Automatic Maintenance Hatch&r (&dIV&r): Eliminates the need for Maintenance, &6forever&r."
+				"- &3Automatic Maintenance Hatch&r (&9IV&r): Eliminates the need for Maintenance, &6forever&r."
 				""
-				"- &3Configurable Maintenance Hatch&r (&6HV&r): You can configure it to cut off &a10%% duration&r on recipes, at the cost of making Maintenance issues happen three times as fast. That is &d16 real hours&r of activity. &9Tape&r can fix problems in this Hatch as well."
+				"- &3Configurable Maintenance Hatch&r (&6HV&r): You can configure it to cut off &a10%% duration&r on recipes, at the cost of making Maintenance issues happen three times as fast. That is &916 real hours&r of activity. &9Tape&r can fix problems in this Hatch as well."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:maintenance_hatch"
@@ -1718,7 +1725,7 @@
 		{
 			dependencies: ["2D31856F6EF1ED69"]
 			description: [
-				"&dGregTech Power&r can be tricky to handle. Luckily, there are several tools you can use to tackle some of the problems."
+				"&9GregTech Power&r can be tricky to handle. Luckily, there are several tools you can use to tackle some of the problems."
 				""
 				"- &aDiode&r: A block which accepts energy on 5 sides, and outputs it on a single side. Its main purpose is to limit Amperage flow through it - adjust it by right-clicking it with a Soft Hammer, &2and to transport power into Cleanrooms.&r Not to be confused with the Diodes used as crafting components."
 				""
@@ -1820,9 +1827,9 @@
 		{
 			dependencies: ["66FCC26399376B55"]
 			description: [
-				"&dOr you can just use the dedicated button in the machine's GUI."
+				"&9Or you can just use the dedicated button in the machine's GUI."
 				""
-				"&dWhatever floats your boat."
+				"&9Whatever floats your boat."
 			]
 			icon: {
 				Count: 1b
@@ -1841,7 +1848,7 @@
 				title: "Screwdrive Output Sides!"
 				type: "checkmark"
 			}]
-			title: "&dScrewdrive Output Sides!"
+			title: "&9Screwdrive Output Sides!"
 			x: 12.75d
 			y: 9.375d
 		}
@@ -1898,7 +1905,7 @@
 			id: "4F239316765C7CA1"
 			rewards: [{
 				id: "189732EC89DA656B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1928,7 +1935,7 @@
 			id: "0D6C8FFD01BE5C21"
 			rewards: [{
 				id: "75AB1F8869901505"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2000,7 +2007,7 @@
 			id: "1C2088A496D8FE4F"
 			rewards: [{
 				id: "4E4E7320F0994D1D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -2021,14 +2028,14 @@
 				}
 				type: "item"
 			}]
-			title: "&dEven Better Backpacks"
+			title: "&9Even Better Backpacks"
 			x: 4.5d
 			y: 6.25d
 		}
 		{
 			dependencies: ["5301E546BAA69844"]
 			description: [
-				"The &bPhytogenic Insolator&r is a way to &dpassively produce wood in the earlygame&r. While somewhat slow, it only requires &a20 rf/t&r to operate, meaning you can just set it down and not have to worry about it, and then come back to wood when you need some for crafting or steel production."
+				"The &bPhytogenic Insolator&r is a way to &9passively produce wood in the earlygame&r. While somewhat slow, it only requires &a20 rf/t&r to operate, meaning you can just set it down and not have to worry about it, and then come back to wood when you need some for crafting or steel production."
 				""
 				"Using &bHardened Integral Components&r in it will cause it to work 1.5x faster, while only requiring an extra &a10 rf/t&r to operate, and using &6Bonemeal&r or otherwise will boost how much wood you get per cycle."
 				""
@@ -2037,7 +2044,7 @@
 			id: "2607F8404B56773B"
 			rewards: [{
 				id: "6AB8644A32EF475D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "...and crops as well, I guess."
@@ -2046,22 +2053,22 @@
 				item: "thermal:machine_insolator"
 				type: "item"
 			}]
-			title: "&dInfinite Wood"
+			title: "&9Infinite Wood"
 			x: 4.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["3EDD0A986384F2A7"]
 			description: [
-				"Now that you have a &3Wiremill&f and a &2Bending Machine&f, you can consider starting to do &eBounties&f. The &6Bounty Board&f has a global inventory containing quests to turn in specific items in exchange for &dNomicoins&f. These quests have a fairly short duration, so make sure to &estockpile the items&f that come up on them or else they'll &cexpire before you can complete them&f."
+				"Now that you have a &3Wiremill&f and a &2Bending Machine&f, you can consider starting to do &eBounties&f. The &6Bounty Board&f has a global inventory containing quests to turn in specific items in exchange for &9monicoins&f. These quests have a fairly short duration, so make sure to &estockpile the items&f that come up on them or else they'll &cexpire before you can complete them&f."
 				""
-				"With renewable &dNomicoins&f, you should feel free to spend the ones you have on whatever you need. &aSpend your coins!"
+				"With renewable &9monicoins&f, you should feel free to spend the ones you have on whatever you need. &aSpend your coins!"
 			]
 			hide_dependency_lines: true
 			id: "3E69E1949316BD0C"
 			rewards: [{
 				id: "09A5BDC0CF107A1C"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			size: 1.5d
@@ -2071,7 +2078,7 @@
 				item: "bountiful:bountyboard"
 				type: "item"
 			}]
-			title: "&2Bounties For Nomicoins!"
+			title: "&2Bounties For monicoins!"
 			x: 10.5d
 			y: 7.5d
 		}

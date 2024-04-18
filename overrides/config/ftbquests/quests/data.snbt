@@ -13,7 +13,7 @@
 	]
 	emergency_items_cooldown: 300
 	grid_scale: 0.25d
-	icon: "gtceu:trinium_coil_block"
+	icon: "gtceu:rtm_alloy_coil_block"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
@@ -22,6 +22,6 @@
 	}
 	pause_game: false
 	progression_mode: "flexible"
-	title: "&dNomifactory CEu Modern"
+	title: "&9Monifactory"
 	version: 13
 }

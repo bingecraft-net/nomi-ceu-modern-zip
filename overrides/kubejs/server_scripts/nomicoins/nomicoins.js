@@ -1,32 +1,32 @@
 ServerEvents.recipes(event => {
-    event.shapeless('5x kubejs:nomi_penny', 'kubejs:nomi_nickel')
+    event.shapeless('5x kubejs:moni_penny', 'kubejs:moni_nickel')
 
-    event.shaped('kubejs:nomi_nickel', [
+    event.shaped('kubejs:moni_nickel', [
             ' A ',
             'AAA',
             ' A '
         ], {
-            A: 'kubejs:nomi_penny'
+            A: 'kubejs:moni_penny'
         }
     )
 
-    event.shapeless('5x kubejs:nomi_nickel', 'kubejs:nomi_quarter')
-    event.shaped('kubejs:nomi_quarter', [
+    event.shapeless('5x kubejs:moni_nickel', 'kubejs:moni_quarter')
+    event.shaped('kubejs:moni_quarter', [
             ' A ',
             'AAA',
             ' A '
         ], {
-            A: 'kubejs:nomi_nickel'
+            A: 'kubejs:moni_nickel'
         }
     )
 
-    event.shapeless('4x kubejs:nomi_quarter', 'kubejs:nomi_dollar')
-    event.shaped('kubejs:nomi_dollar', [
+    event.shapeless('4x kubejs:moni_quarter', 'kubejs:moni_dollar')
+    event.shaped('kubejs:moni_dollar', [
             'A A',
             '   ',
             'A A'
         ], {
-            A: 'kubejs:nomi_quarter'
+            A: 'kubejs:moni_quarter'
         }
     )
 })

@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         '   ',
         'A A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         '   ',
         ' AA'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         ' A ',
         '  A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 
     event.shaped(
@@ -33,6 +33,6 @@ ServerEvents.recipes(event => {
         '  A',
         '  A'
     ], {
-        A: 'kubejs:nomi_nickel'
+        A: 'kubejs:moni_nickel'
     }).noMirror().noShrink()
 })

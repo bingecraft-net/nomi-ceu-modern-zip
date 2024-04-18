@@ -314,7 +314,7 @@ ServerEvents.recipes(event => {
 
     //Creative Vending Upgrade
     event.recipes.extendedcrafting.shaped_table(
-        'storagedrawers:creative_storage_upgrade', [
+        'kubejs:creative_storage_component', [
             'ABCDEDCBA',
             'BCDEFEDCB',
             'CDEFGFEDC',
@@ -325,7 +325,7 @@ ServerEvents.recipes(event => {
             'BCDEFEDCB',
             'ABCDEDCBA'
         ], {
-            A: 'storagedrawers:emerald_storage_upgrade',
+            A: 'functionalstorage:netherite_upgrade',
             B: 'sophisticatedstorage:gold_barrel',
             C: 'sophisticatedstorage:diamond_barrel',
             D: 'gtceu:tungsten_steel_crate',
@@ -472,7 +472,7 @@ ServerEvents.recipes(event => {
             'BCTEDETCB',
             'ABBBBBBBA'
         ], {
-            A: "storagedrawers:creative_storage_upgrade",
+            A: "kubejs:creative_storage_component",
             B: "avaritia:infinity_ingot",
             C: "enderio:creative_power",
             D: "minecraft:bedrock",

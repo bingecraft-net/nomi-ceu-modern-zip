@@ -17,7 +17,7 @@
 	debugTrace = false
 	#List of rules in format "domain:item1, domain:item2, n".
 	#Creates a compacting drawer rule to convert 1 of item1 into n of item2.
-	compactingRules = ["minecraft:clay, minecraft:clay_ball, 4", "kubejs:nomi_dollar, kubejs:nomi_quarter, 4", "kubejs:nomi_quarter, kubejs:nomi_nickel, 5", "kubejs:nomi_nickel, kubejs:nomi_penny, 5"]
+	compactingRules = ["minecraft:clay, minecraft:clay_ball, 4", "kubejs:moni_dollar, kubejs:moni_quarter, 4", "kubejs:moni_quarter, kubejs:moni_nickel, 5", "kubejs:moni_nickel, kubejs:moni_penny, 5"]
 
 [StorageUpgrades]
 	#Storage upgrades multiply storage capacity by the given amount.

@@ -1,9 +1,14 @@
 {
-  "item.kubejs.smores.1": "ʇoƃuᴉɯ,S ǝɹoɯ,S",
-  "item.kubejs.smores.2": "ʇoƃuᴉɯ,Sǝlqnop ǝɹoɯ,SǝɹoW",
-  "item.kubejs.smores.3": "ʇoƃuᴉɯ,SpɐnQ ǝɹoɯ,SɹnoℲ",
-  "item.kubejs.smores.4": "oƃuᴉɯ,SoʇɔO ǝɹoɯ,SʇɥƃᴉƎ",
-  "item.kubejs.smores.5": "ʇoƃuᴉɯ,SɐɔǝpɐxǝH ǝɹoɯ,SuǝǝʇxᴉS",
-  "item.kubejs.smores.6": "ʇoƃuᴉɯ,Soʎpɐʇuoɔɐᴉɹ┴ ǝɹoɯ,S-,o-ʞɔɐʇs-ɟlɐH",
-  "item.kubejs.smores.7": "ʇoƃuᴉɯ,SɐɹɐssǝʇɐʇuoɔǝxǝH ǝɹoɯ,S-,o-ʞɔɐʇS"
+  "item.kubejs.smore_1": "ʇoƃuᴉɯ,S ǝɹoɯ,S",
+  "item.kubejs.smore_2": "ʇoƃuᴉɯ,Sǝlqnop ǝɹoɯ,SǝɹoW",
+  "item.kubejs.smore_4": "ʇoƃuᴉɯ,SpɐnQ ǝɹoɯ,SɹnoℲ",
+  "item.kubejs.smore_8": "oƃuᴉɯ,SoʇɔO ǝɹoɯ,SʇɥƃᴉƎ",
+  "item.kubejs.smore_16": "ʇoƃuᴉɯ,SɐɔǝpɐxǝH ǝɹoɯ,SuǝǝʇxᴉS",
+  "item.kubejs.smore_32": "ʇoƃuᴉɯ,Soʎpɐʇuoɔɐᴉɹ┴ ǝɹoɯ,S-,o-ʞɔɐʇs-ɟlɐH",
+  "item.kubejs.smore_64": "ʇoƃuᴉɯ,SɐɹɐssǝʇɐʇuoɔǝxǝH ǝɹoɯ,S-,o-ʞɔɐʇS",
+
+  "item.kubejs.moni_penny": "§7[Ɩ]§r ʎuuǝdᴉɯoN",
+  "item.kubejs.moni_nickel": "§7[ϛ]§r §elǝʞɔᴉuᴉɯoN",
+  "item.kubejs.moni_quarter": "§7[ϛᄅ]§r §bɹǝʇɹɐnbᴉɯoN",
+  "item.kubejs.moni_dollar": "§7[00Ɩ]§r §dɹɐllopᴉɯoN"
 }

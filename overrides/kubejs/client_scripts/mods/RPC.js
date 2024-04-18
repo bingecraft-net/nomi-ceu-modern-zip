@@ -7,7 +7,7 @@ ClientEvents.loggedOut(() => {
 	global.tier = 0;
 })
 
-NetworkEvents.dataReceived('nomi:rpc', (e) => {
+NetworkEvents.dataReceived('moni:rpc', (e) => {
 	global.tier = Number(e.data.tier ?? TIER_ULV);
 	let tierID = TIER_ID_MAPPING[Math.round(global.tier)]; // putting val inside the global var turns it into float
 	SDRP.setState(`sdrp.${tierID.toLowerCase()}`, tierID, tierID.toLowerCase())

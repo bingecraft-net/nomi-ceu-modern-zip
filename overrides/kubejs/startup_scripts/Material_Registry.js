@@ -39,14 +39,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet('metallic')
         .blastTemp(6800)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_DENSE)
-        .cableProperties('524288', '1', '0', true);
+        .cableProperties(524288, 1, 0, true);
 
     event.create("draconium_awakened")
         .ingot().fluid()
         .element(GTElements.get("draconium_awakened"))
         .color(0xf58742)
         .iconSet('metallic')
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING)
+        .flags(GTMaterialFlags.NO_SMELTING, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING)
 
     event.create("omnium")
         .ingot().fluid()
@@ -54,12 +54,11 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x414751)
         .iconSet('shiny')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR)
-        .cableProperties('2147483647', '64', '0', true);
+        .cableProperties(2147483647, 64, 0, true);
 
     event.create('taranium')
         .element(GTElements.get("taranium"))
-        .ingot()
-        .fluid()
+        .ingot().fluid()
         .color(0xff00ff)
         .iconSet('bright')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_DENSE)
@@ -107,49 +106,59 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .fluid()
         .color(0xb0babf)
         .iconSet('ultraacidic_residue')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('dirty_hexafluorosilicic_acid')
         .fluid()
         .color(0xd00010)
         .iconSet('dirty_hexafluorosilicic_acid')
-        .components('2x hydrogen', '1x silicon', '6x fluorine')
+        .components('2x hydrogen', 'silicon', '6x fluorine' , 'rare_earth')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('xenic_acid')
         .fluid()
         .color(0xa567db)
         .iconSet('xenic_acid')
+		.components('xenon', 'water', '5x oxygen') // , 'hydrogen_peroxide'
 
     event.create('dusty_helium')
-        .fluid()
+        .gas()
         .color(0xa040af)
         .iconSet('dusty_helium')
+		.components('helium_3' , 'rare_earth')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('taranium_enriched_helium')
-        .fluid()
+        .gas().plasma()
         .color(0x10c050)
         .iconSet('taranium_enriched_helium')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('taranium_depleted_helium')
-        .fluid()
+        .gas()
         .color(0x006010)
         .iconSet('taranium_enriched_helium')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('tritium_hydride')
-        .fluid()
+        .gas()
         .color(0xd01010)
         .iconSet('tritium_hydride')
-        .components('1x tritium', '1x hydrogen')
+        .components('tritium', 'hydrogen')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('dioxygen_difluoride')
         .fluid()
-        .color(0xFFFFFF)
+        .colorAverage()
         .iconSet('dioxygen_difluoride')
         .components('2x oxygen', '2x fluorine')
 
     event.create('helium_hydride')
-        .fluid()
+        .gas()
         .color(0xe6d62e)
         .iconSet('helium_hydride')
+        .components('helium_3', 'hydrogen')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 })
 
 // Platline Stuff
@@ -158,40 +167,56 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .fluid()
         .color(0xfef0c2F)
         .iconSet('chloroplatinic_acid')
-        .components('2x hydrogen', '1x platinum', '6x chlorine')
+        .components('2x hydrogen', 'platinum', '6x chlorine')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('palladium_rich_ammonia')
         .fluid()
         .color(0x808080)
         .iconSet('palladium_rich_ammonia')
-        .components('2x ammonia', '1x palladium', '1x chlorine')
+        .components('2x ammonia', 'palladium', 'chlorine')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('rhodium_sulfate_solution')
         .fluid()
         .color(0xffbb66)
         .iconSet('rhodium_sulfate_solution')
+		.components('rhodium_sulfate', 'water')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+	event.create("iridium_dioxide_residue")
+		.dust()
+		.color(0x17182e).iconSet("rough")
+		.components('iridium', '2x oxygen', 'rare_earth')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('acidic_iridium_dioxide_solution')
         .fluid()
         .color(0x27284e)
         .iconSet('acidic_iridium_dioxide_solution')
+		.components('iridium_dioxide_residue', '4x hydrochloric_acid')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('platinum_palladium_leachate')
         .fluid()
         .color(0xffffc5)
         .iconSet('platinum_palladium_leachate')
+		.components('platinum', 'palladium', 'aqua_regia')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('methyl_formate')
         .fluid()
         .color(0xffaaaa)
         .iconSet('methyl_formate')
         .components('2x carbon', '4x hydrogen', '2x oxygen')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('formic_acid')
         .fluid()
         .color(0xffffc5)
         .iconSet('formic_acid')
-        .components('1x carbon', '2x hydrogen', '2x oxygen')
+        .components('carbon', '2x hydrogen', '2x oxygen')
+		.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 })
 
 
@@ -215,21 +240,26 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create("kaemanite")
         .dust().ore()
+		// .components('trinium', 'tantalum', '4x oxygen')
         .color(0xe7413c)
         .iconSet('bright')
+		// .addOreByproducts(material('niobium'), material('trinium_sulfide'), material('trinium'))
 
     event.create("fluorite")
         .dust().ore()
         .color(0xFFFC9)
         .iconSet('rough')
+		.components('calcium', '2x fluorine')
 
     event.create("darmstadtite")
         .dust().ore()
-        .iconSet('rough')
+        .iconSet('dull')
+		.components('2x darmstadtium', '3x sulfur')
 
     event.create("dulysite")
         .dust().ore()
-        .iconSet('rough')
+        .iconSet('ruby')
+		.components('duranium', '3x chlorine')
 })
 
 // Thermal Materials
@@ -238,10 +268,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot().fluid()
         .color(0xad2f05)
         .iconSet('dull')
+		.components('3x red_steel', 'blaze')
         .flags(GTMaterialFlags.GENERATE_PLATE)
 
     event.create("mana")
         .element(GTElements.get("mana"))
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("mana_infused_metal")
         .ingot().fluid()
@@ -253,6 +285,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot().fluid()
         .color(0x9949cc)
         .iconSet('metallic')
+		.components('4x ardite', '4x cobalt', 'mana')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.NO_SMELTING)
 
     event.create("signalum")
@@ -261,6 +294,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet('shiny')
         .blastTemp(4000)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR)
+		.components('4x annealed_copper', '2x ardite', '2x red_alloy')
         .cableProperties(32768, 1, 0, true)
 
     event.create("lumium")
@@ -269,6 +303,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xf6ff99)
         .iconSet('bright')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FINE_WIRE)
+		.components('4x tin_alloy', '2x sterling_silver')
         .cableProperties(8192, 1, 0, true)
 
     event.create("enderium")
@@ -277,6 +312,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x1f6b62)
         .iconSet('shiny')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FINE_WIRE)
+		.components('4x lead', '2x platinum', 'blue_steel', 'osmium')
         .cableProperties(131072, 1, 0, true)
 
     event.create("electrum_flux")
@@ -284,13 +320,15 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .blastTemp(1100)
         .color(0xf7be20)
         .iconSet('bright')
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR);
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR)
+		.components('6x electrum', 'lumium', 'signalum');
 
-	event.create("mythril")
-        .ingot().fluid()
+	event.create("mythril") // mithril
+        .ingot()
         .color(0x428fdb)
         .iconSet('dull')
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR);
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR) // no unification
+		.components('titanium', 'mana');
 })
 
 
@@ -300,12 +338,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot().fluid()
         .color(0x414751)
         .iconSet('dull')
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME)
+		.components('iron')
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.DISABLE_DECOMPOSITION)
 
-    event.create("conductive_alloy")
+    event.create("conductive_alloy") // conductive_iron
         .ingot().fluid()
         .color(0xf7b29b)
         .iconSet('metallic')
+		.components('iron', 'redstone')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR)
         .cableProperties(32, 1, 0, true)
 
@@ -314,6 +354,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xffb545)
         .iconSet('shiny')
         .blastTemp(1250)
+		.components('2x gold', 'redstone', 'glowstone')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR)
         .cableProperties(128, 1, 0, true)
 
@@ -321,27 +362,31 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot().fluid()
         .color(0xa4ff70)
         .iconSet('shiny')
-        .blastTemp(1350)
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW)
+        .blastTemp(1350) // , BlastProperty.GasTier.LOW, 120, 600)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_BOLT_SCREW)
+		.components('energetic_alloy', 'ender_pearl')
         .cableProperties(512, 1, 0, true)
 
-    event.create("pulsating_alloy")
+    event.create("pulsating_alloy") // pulsating_iron
         .ingot().fluid()
         .color(0x6ae26e)
         .iconSet('shiny')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR)
+		.components('iron')
         .cableProperties(8, 1, 0, true)
 
     event.create("electrical_steel")
         .ingot().fluid()
         .color(0xb2c0c1)
         .iconSet('metallic')
+		.components('steel', 'silicon')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR)
 
     event.create("soularium")
         .ingot().fluid()
         .color(0x7c674d)
         .iconSet('metallic')
+		.components('gold')
         .flags(GTMaterialFlags.GENERATE_PLATE)
 
     event.create("dark_soularium")
@@ -354,15 +399,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xd6d980)
         .iconSet('metallic')
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR)
+		// .toolStats(new ToolProperty(4.0, 3.5, 1024, 3, ALL_TOOL_TYPES))
         .cableProperties(2048, 1, 0, true)
 
     event.create("stellar_alloy")
         .ingot().fluid()
         .color(0xc5c8c8)
         .iconSet('metallic')
-
-
-
 })
 
 // Endgame stuff

@@ -12,14 +12,14 @@ ServerEvents.recipes(event => {
             W: 'gtceu:copper_single_cable',
             S: 'gtceu:solid_machine_casing'
         }
-    ).id('gtceu:shaped/greenhouse')
+    ).id('kubejs:shaped/greenhouse')
 
 
     ////// Greenhouse Recipes //////
 
     function Greenhouse(id, input, fluid, output, boosted) {
         if (boosted) {
-            event.recipes.gtceu.greenhouse(id)
+            event.recipes.gtceu.greenhouse(`kubejs:${id}`)
                 .circuit(2)
                 .notConsumable(InputItem.of(input))
                 .itemInputs('4x gtceu:fertilizer')
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
                 .duration(640)
                 .EUt(120)
         } else {
-            event.recipes.gtceu.greenhouse(id)
+            event.recipes.gtceu.greenhouse(`kubejs:${id}`)
                 .circuit(1)
                 .notConsumable(InputItem.of(input))
                 .inputFluids(Fluid.of('minecraft:water', fluid))
@@ -151,7 +151,7 @@ ServerEvents.recipes(event => {
         S: '#minecraft:saplings',
         R: 'thermal:rf_coil'
     }
-    )
+    ).id('kubejs:shaped/machine_insolator')
 
     event.custom({
         type: 'thermal:insolator',
@@ -174,5 +174,5 @@ ServerEvents.recipes(event => {
         ],
         "energy_mod": 3.0,
         "water_mod": 3.0
-    })
+    }).id('kubejs:thermal/insolator/rubber_sapling')
 })

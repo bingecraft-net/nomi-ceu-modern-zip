@@ -1,8 +1,8 @@
 {
 	"objectives": [
-		"nomi_objs"
+		"moni_objs"
 	],
 	"rewards": [
-		"nomi_rews"
+		"moni_rews"
 	]
 }

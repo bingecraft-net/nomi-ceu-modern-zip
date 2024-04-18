@@ -27,6 +27,14 @@ ServerEvents.recipes(event => {
         .duration(40)
         .EUt(7)
 
+    // Void Air (normal air)
+    event.recipes.gtceu.gas_collector('void_air')
+        .dimension('javd:void')
+        .outputFluids(Fluid.of('gtceu:air', 10000))
+        .circuit(1)
+        .EUt(16)
+        .duration(200)
+
     // Netherrack
     event.recipes.gtceu.chemical_reactor('dust_to_netherrack')
         .itemInputs('kubejs:dust')
@@ -44,7 +52,7 @@ ServerEvents.recipes(event => {
     event.shapeless('minecraft:blaze_rod', 'minecraft:brewing_stand')
     event.replaceInput({ input: 'gtceu:wood_plate' }, 'gtceu:wood_plate', '#minecraft:planks')
 
-    // Nomi Steel
+    // Moni Steel
     event.remove({ type: "gtceu:electric_blast_furnace", output: "gtceu:steel_ingot" })
 
     const carbonSources = ["gtceu:coal_dust", "gtceu:charcoal_dust", "gtceu:carbon_dust"]
@@ -145,7 +153,7 @@ ServerEvents.recipes(event => {
         }
     )
 
-    // Nomi-style firebricks
+    // Moni-style firebricks
     event.remove({ type: "minecraft:smelting", output: "gtceu:firebrick" })
     event.recipes.minecraft.smelting("gtceu:firebrick", "gtceu:fireclay_dust")
 
@@ -204,7 +212,7 @@ ServerEvents.recipes(event => {
         .duration(20)
         .EUt(8)
 
-    // Nomify LV motors
+    // Monify LV motors
     event.remove({ id: "gtceu:shaped/electric_motor_lv_steel" })
     event.remove({ id: "gtceu:shaped/electric_motor_lv_iron" })
     event.remove({ id: "gtceu:assembler/electric_motor_lv_steel" })
@@ -242,7 +250,7 @@ ServerEvents.recipes(event => {
 
     // Crystal Chip shit
     event.recipes.gtceu.autoclave("starter_enderium_chip")
-        .itemInputs(["gtceu:olivine_exquisite_gem", "gtceu:emerald_exquisite_gem"])
+        .itemInputs(["gtceu:exquisite_olivine_gem", "gtceu:exquisite_emerald_gem"])
         .inputFluids("gtceu:enderium 144")
         .chancedOutput("gtceu:raw_crystal_chip", 900, 1800)
         .duration(12000)
@@ -256,19 +264,6 @@ ServerEvents.recipes(event => {
         .duration(12000)
         .EUt(320)
         .cleanroom(CleanroomType.CLEANROOM)
-
-    // Drawer templates lower yield
-    event.remove({ id: "storagedrawers:upgrade_template" })
-    event.shaped(
-        "2x storagedrawers:upgrade_template", [
-            'SSS',
-            'SDS',
-            'SSS'
-        ], {
-            S: "#forge:rods/wood",
-            D: "#storagedrawers:drawers"
-        }
-    )
 
     // NC cobble gen replaced with thermal for now, make buckets empty but indicate how it must be placed, also remove easy auto deepslate and friends
     event.remove({ type: "thermal:rock_gen", not: { output: "minecraft:cobblestone" } })
@@ -285,7 +280,7 @@ ServerEvents.recipes(event => {
 
     //TODO: AE2 crystal growth accelerator goes here
 
-    // Nomified distill tower
+    // Monified distill tower
     event.shaped(
         "gtceu:distillation_tower", [
             'LPL',
@@ -469,6 +464,12 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Obby grinding
+    event.recipes.gtceu.macerator('obsidian_dust')
+        .itemInputs('minecraft:obsidian')
+        .itemOutputs('gtceu:obsidian_dust')
+        .duration(40)
+        .EUt(2)
 
     //
     // Recycling below here

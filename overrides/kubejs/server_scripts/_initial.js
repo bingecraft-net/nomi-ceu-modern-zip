@@ -14,35 +14,18 @@ const cake_reset_time = 60; // in seconds
  * @returns {Internal.RecipeTypeFunction}
  */
 const comapcting = (ev, output, input, make_uncompacting) => {
-	// kubejs doesnt support nullish coalescing :(
-	if (make_uncompacting === undefined || make_uncompacting === null) {
-		make_uncompacting = true;
-	}
+    // kubejs doesnt support nullish coalescing :(
+    if (make_uncompacting === undefined || make_uncompacting === null) {
+        make_uncompacting = true;
+    }
 
-	if (make_uncompacting) ev.shapeless(`9x ${input}`, [output]);
+    if (make_uncompacting) ev.shapeless(`9x ${input}`, [output]);
 
-	return ev.shaped(output, [
-		'aaa',
-		'aaa',
-		'aaa'
-	], { a: input });
-}
-
-/**
- * shrimple helper for alloy smelter recipies
- * @param {Internal.RecipesEventJS_} ev
- * @param {InputItem_} inputA
- * @param {InputItem_} inputB
- * @param {OutputItem_} output
- * @param {number} time in seconds
- * @param {number} voltage
- */
-const alloySmelter = (ev, inputA, inputB, output, time, voltage) => {
-	ev.recipes.gtceu.alloy_smelter(`nomi:generated_${Item.of(output).idLocation.path}_${Item.of(inputA).idLocation.path}_${Item.of(inputB).idLocation.path}`)
-		.itemInputs(inputA, inputB)
-		.itemOutputs(output)
-		.duration(time * 20)
-		.EUt(voltage)
+    return ev.shaped(output, [
+        'aaa',
+        'aaa',
+        'aaa'
+    ], { a: input });
 }
 
 //Java Classes
@@ -63,5 +46,5 @@ const TIER_ZPM = 7;
 const TIER_UV = 8;
 const TIER_UHV = 9;
 const TIER_ID_MAPPING = [
-	'ULV', 'LV', 'MV', 'HV', 'EV', 'IV', 'LuV', 'ZPM', 'UV', 'UHV'
+    'ULV', 'LV', 'MV', 'HV', 'EV', 'IV', 'LuV', 'ZPM', 'UV', 'UHV'
 ]

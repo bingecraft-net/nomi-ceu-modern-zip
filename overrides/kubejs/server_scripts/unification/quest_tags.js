@@ -1,18 +1,18 @@
 ServerEvents.tags('item', event => {
     //Input Hatches
-    event.add('nomi:input_hatch',  /^gtceu:(?!steam)(?!me).{1,3}_input_hatch$/); // ($) we dont want to get output_hatch_hv
+    event.add('moni:input_hatch',  /^gtceu:(?!steam)(?!me).{1,3}_input_hatch$/); // ($) we dont want to get output_hatch_hv
     //Output Hatches
-    event.add('nomi:output_hatch',  /^gtceu:(?!steam)(?!me).{1,3}_output_hatch$/); // nor do we want hv_energy_input_hatch
+    event.add('moni:output_hatch',  /^gtceu:(?!steam)(?!me).{1,3}_output_hatch$/); // nor do we want hv_energy_input_hatch
     //Input buses
-    event.add('nomi:input_bus',  /^gtceu:(?!steam)(?!me).{1,3}_input_bus$/)
+    event.add('moni:input_bus',  /^gtceu:(?!steam)(?!me).{1,3}_input_bus$/)
     //Output busses
-    event.add('nomi:output_bus', /^gtceu:(?!steam)(?!me).{1,3}_output_bus$/)
+    event.add('moni:output_bus', /^gtceu:(?!steam)(?!me).{1,3}_output_bus$/)
 
-	//'nomi_quest:backpack'
-	event.add('nomi_quest:backpack', 'sophisticatedbackpacks:backpack')
+	//'moni_quest:backpack'
+	event.add('moni_quest:backpack', 'sophisticatedbackpacks:backpack')
 
-	// Nomicoin, mostly cosmetic
-	event.add('nomi:coins', ['kubejs:nomi_penny', 'kubejs:nomi_nickel', 'kubejs:nomi_quarter', 'kubejs:nomi_dollar'])
+	// Monicoin, mostly cosmetic
+	event.add('moni:coins', ['kubejs:moni_penny', 'kubejs:moni_nickel', 'kubejs:moni_quarter', 'kubejs:moni_dollar'])
 
-	event.add('nomi:polarizer', ['gtceu:lv_polarizer', 'gtceu:mv_polarizer'])
+	event.add('moni:polarizer', ['gtceu:lv_polarizer', 'gtceu:mv_polarizer'])
 })

@@ -1,9 +1,9 @@
 
 {
 	"content": {
-		"all_rew_nomi_penny": {
+		"all_rew_moni_penny": {
 			"type": "item",
-			"content": "kubejs:nomi_penny",
+			"content": "kubejs:moni_penny",
 			"amount": {
 				"min": 20,
 				"max": 50
@@ -12,9 +12,9 @@
 			"rarity": "COMMON"
 		},
 
-		"all_rew_nomi_nickel": {
+		"all_rew_moni_nickel": {
 			"type": "item",
-			"content": "kubejs:nomi_nickel",
+			"content": "kubejs:moni_nickel",
 			"amount": {
 				"min": 6,
 				"max": 12
@@ -23,9 +23,9 @@
 			"rarity": "UNCOMMON"
 		},
 
-		"all_rew_nomi_quarter": {
+		"all_rew_moni_quarter": {
 			"type": "item",
-			"content": "kubejs:nomi_quarter",
+			"content": "kubejs:moni_quarter",
 			"amount": {
 				"min": 2,
 				"max": 3
@@ -34,9 +34,9 @@
 			"rarity": "RARE"
 		},
 
-		"all_rew_nomi_dollar": {
+		"all_rew_moni_dollar": {
 			"type": "item",
-			"content": "kubejs:nomi_dollar",
+			"content": "kubejs:moni_dollar",
 			"amount": {
 				"min": 1,
 				"max": 1
@@ -44,9 +44,9 @@
 			"unitWorth": 100,
 			"rarity": "EPIC"
 		},
-		"all_rew_nomi_dollar_legendary": {
+		"all_rew_moni_dollar_legendary": {
 			"type": "item",
-			"content": "kubejs:nomi_dollar",
+			"content": "kubejs:moni_dollar",
 			"amount": {
 				"min": 2,
 				"max": 3

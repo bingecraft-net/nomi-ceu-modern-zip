@@ -7,7 +7,27 @@
 	icon: "gtceu:luv_fusion_reactor"
 	id: "40F7695BE1E65C41"
 	order_index: 8
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "569E4C671C9A4419"
+			linked_quest: "672D43BD113251EA"
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			id: "0CC87D3E523A3D47"
+			linked_quest: "6DAB13A7BDECE94E"
+			size: 1.5d
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			id: "3C9DAB2F66E5BECC"
+			linked_quest: "6588C68DE6973BCC"
+			x: 0.5d
+			y: 1.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
@@ -17,20 +37,20 @@
 			description: [
 				"&2A strong heavy element obtained from the Naquadah chain."
 				""
-				"&6Trinium&r can come from &6Kaemanite Ore&r, but you will probably want to bolster its production with &6Naquadah Dust&r processing. It comes out at the second stage, so if you don't mind storing the intermediates and have Fluorine under control, you can hold off doing the full chain if you don't need to yet. You get &d1 Trinium per 6 Naquadah processed&r."
+				"&6Trinium&r can come from &6Kaemanite Ore&r, but you will probably want to bolster its production with &6Naquadah Dust&r processing. It comes out at the second stage, so if you don't mind storing the intermediates and have Fluorine under control, you can hold off doing the full chain if you don't need to yet. You get &91 Trinium per 6 Naquadah processed&r."
 				""
 				"This will be required in large quantities for &6Trinium Coils&r, &6Superconducting Coil Blocks&r, &6Naquadah Alloy&r, among other things. You will need 14 stacks at least for a &3Fusion Reactor Mk1&r, so stock up on it."
 			]
 			id: "57627DCF9F46A8E2"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "393228A0D8F67AD2"
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
 			title: "&2Trinium"
-			x: -5.5d
-			y: -3.5d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1FD2D0855A8A926B"]
@@ -39,7 +59,7 @@
 			id: "1405D08C6A87B3BB"
 			rewards: [{
 				id: "265F8AF395C89377"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [
@@ -63,7 +83,7 @@
 			]
 			title: "&2Plasma Turbine"
 			x: -4.0d
-			y: -5.0d
+			y: -1.75d
 		}
 		{
 			dependencies: ["1FD2D0855A8A926B"]
@@ -90,7 +110,7 @@
 			id: "1183B96529D08326"
 			rewards: [{
 				id: "064FF89D54EB9137"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			tasks: [{
@@ -127,9 +147,10 @@
 			rewards: [{
 				count: 10
 				id: "27AA4E8C62913D0C"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "1318C0E509554BEF"
@@ -164,7 +185,7 @@
 			description: [
 				"&2A lighter and unstable Naquadah isotope."
 				""
-				"&6Naquadria&o&r is used in the construction of &6UV components&r, the &3Fusion Reactor Mk2&r, and in fusing &6Neutronium&r. Each piece of Naquadria also makes &d4 times&r more power than &6Enriched Naquadah&r in &3Naquadah Reactors&r."
+				"&6Naquadria&o&r is used in the construction of &6UV components&r, the &3Fusion Reactor Mk2&r, and in fusing &6Neutronium&r. Each piece of Naquadria also makes &94 times&r more power than &6Enriched Naquadah&r in &3Naquadah Reactors&r."
 			]
 			id: "10DD3A6BE5F9624D"
 			tasks: [{
@@ -186,7 +207,7 @@
 			id: "3FFC053E3E11D586"
 			rewards: [{
 				id: "51F748D4099BAC22"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			tasks: [{
@@ -212,7 +233,7 @@
 			id: "79EFCD8E01384C0C"
 			rewards: [{
 				id: "6238A522FF95AD44"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -230,7 +251,7 @@
 			id: "15607184B546F5EE"
 			rewards: [{
 				id: "4D377BF47452A80F"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -239,13 +260,14 @@
 				type: "item"
 			}]
 			title: "&2Tritanium Coils"
-			x: 0.5d
-			y: -1.9928571428571473d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
 				"79EFCD8E01384C0C"
 				"5EE23A29090BD374"
+				"75DD12FBC8AA39FC"
 			]
 			description: [
 				"The final circuit!"
@@ -284,7 +306,7 @@
 			id: "0DF2AF70CB1FEFB3"
 			tasks: [{
 				id: "038C507EEFE6A5EE"
-				item: "gtceu:neutronium_ingot"
+				item: "avaritia:neutronium_ingot"
 				type: "item"
 			}]
 			title: "&2Neutronium Ingot"
@@ -311,9 +333,10 @@
 			rewards: [{
 				count: 10
 				id: "342B04DA3362D0B9"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
+			size: 1.5d
 			subtitle: "FUSION!"
 			tasks: [
 				{
@@ -350,7 +373,7 @@
 			id: "5BADF536443E712D"
 			rewards: [{
 				id: "31762D923359C463"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -365,17 +388,17 @@
 		{
 			dependencies: [
 				"069773756716E192"
-				"6728FB92FD3A2084"
+				"5585B254BA2D708C"
 			]
 			description: [
-				"&6Americium Ingots&r are obtained by placing &dNuclearCraft&r Americium isotopes into an &3Extractor&r and solidifying the fluid. As with other GT materials, use the ingot or fluid to forge the other forms."
+				"&6Americium Ingots&r are obtained by placing &9NuclearCraft&r Americium isotopes into an &3Extractor&r and solidifying the fluid. As with other GT materials, use the ingot or fluid to forge the other forms."
 				""
 				"&2Americium is used in larger quantities in CEu progression.&r You cannot convert this form of Americium back to NuclearCraft Americium isotopes. These are also the best &aItem Pipe&r material, in terms of throughput."
 			]
 			id: "4A8FB1EF600F0882"
 			rewards: [{
 				id: "28257AD592813E0D"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			tasks: [{
@@ -428,7 +451,7 @@
 			id: "32E44FFD602C98DF"
 			rewards: [{
 				id: "218573064D1473A9"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [
@@ -462,7 +485,7 @@
 			id: "4BE6C4E7FDF7C71B"
 			rewards: [{
 				id: "06139FE8ADC033ED"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -486,7 +509,7 @@
 			id: "64B145DC53023119"
 			rewards: [{
 				id: "7F9E99458D9F8514"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -503,7 +526,7 @@
 			id: "490F04B181217B28"
 			rewards: [{
 				id: "77276677737EC253"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -529,7 +552,7 @@
 			id: "3065F950BCA5C461"
 			rewards: [{
 				id: "1CF2F7306BCC5FE5"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -563,7 +586,7 @@
 			id: "7D7B34CF5145F971"
 			rewards: [{
 				id: "2EE2A64247934DFA"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			subtitle: "You only need one of this quest's dependencies"
@@ -618,7 +641,7 @@
 			id: "6728FB92FD3A2084"
 			rewards: [{
 				id: "22E84F8BB0633D73"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			subtitle: "You only need one of this quest's dependencies"
@@ -669,7 +692,7 @@
 			id: "0E5E5E647F378D02"
 			rewards: [{
 				id: "78C58916BAFD010E"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -715,7 +738,7 @@
 			id: "18B28DC43ACAF768"
 			rewards: [{
 				id: "121513CD4E6D9BA8"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -758,7 +781,7 @@
 			id: "79197A2CD8E435B2"
 			rewards: [{
 				id: "461C74DA073F95A0"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{
@@ -805,7 +828,7 @@
 			id: "171EE3A4129F19A5"
 			rewards: [{
 				id: "3C74F3D9993A0E7E"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -822,7 +845,7 @@
 				"18B28DC43ACAF768"
 			]
 			description: [
-				"Now that you have all the basic building blocks of nuclear fission, you'll need to start creating breeding chains to mass produced stabilized versions of each element, for the synthesis of &dOmnium&r."
+				"Now that you have all the basic building blocks of nuclear fission, you'll need to start creating breeding chains to mass produced stabilized versions of each element, for the synthesis of &9Omnium&r."
 				""
 				"Please note that stabilized versions of each element cannot be turned back into fluids, nor turned back into their original &bNuclearCraft&r isotopes."
 				""
@@ -866,7 +889,7 @@
 			]
 			icon: "gtceu:luv_fusion_reactor"
 			id: "1FD2D0855A8A926B"
-			size: 1.0d
+			size: 1.5d
 			subtitle: "Time to get fusing!"
 			tasks: [
 				{
@@ -881,10 +904,10 @@
 						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
-							value: "nomi:input_hatch"
+							value: "moni:input_hatch"
 						}
 					}
-					title: "Any #nomi:input_hatch"
+					title: "Any #moni:input_hatch"
 					type: "item"
 				}
 				{
@@ -893,10 +916,10 @@
 						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
-							value: "nomi:output_hatch"
+							value: "moni:output_hatch"
 						}
 					}
-					title: "Any #nomi:output_hatch"
+					title: "Any #moni:output_hatch"
 					type: "item"
 				}
 				{
@@ -921,6 +944,307 @@
 			title: "&2Fusion Reactor MK1"
 			x: -4.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["6728FB92FD3A2084"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&oNote: this quest accepts Americium 241, 242, or 243."
+				""
+				"&6Americium 242&r and &6Americium 243&r are used to make &6LEA-242 Fuel&r."
+				""
+				"There's also &6Americium 241&r, but this is only useful for making RTGs (which produce small amounts of RF continuously) or decaying down into &6Neptunium&r."
+				""
+				"&6Depleted LEA 242 Fuels&r&r will return a lot of &6Curium 246&r, and small amounts of the other three isotopes."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "nuclearcraft:fuel_americium_hea_242"
+			id: "5585B254BA2D708C"
+			subtitle: "You only need one of this quest's dependencies"
+			tasks: [{
+				id: "16F29EB016AF9A04"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nuclearcraft:americium_241"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:americium_242"
+							}
+							{
+								Count: 1b
+								id: "nuclearcraft:americium_243"
+							}
+						]
+					}
+				}
+				title: "Americium"
+				type: "item"
+			}]
+			title: "Americium Fission"
+			x: -1.0d
+			y: -8.75d
+		}
+		{
+			dependencies: ["3A69EE21B3089929"]
+			description: [
+				"The &3Data Bank&r acts as a mass storage for &6Data Sticks&r and &6Data Orbs&r. It is also required for reading &6Data Modules&r."
+				""
+				"Connect an &3Optical Data Transmission Hatch&r on the Data Bank to an &3Optical Data Reception Hatch&r (replacing the &3Data Access Hatch&r) on your &3Assembly Line&r using &aOptical Cables&r, and it will be able to read the data of all data items within the Data Bank."
+				""
+				"You can connect multiple &3Assembly Lines&r to a single Data Bank, but each one will need its own &3Transmission Hatch&r on the Data Bank."
+				""
+				"&3Data Access Hatches&r and &3Optical Hatches&r can replace any of the &aComputer Casings&r in the structure, but it must have a minimum of &e3&r &aComputer Casings&r. Each &3Data Access Hatch&r and &3Optical Hatch&r within the structure will consume &d1,920 EU/t&r regardless of their usage."
+				""
+				"You will also need a &aMaintenance&r and &aEnergy Hatch&r, which can replace the &aHigh Power Casings&r in front."
+				""
+				"{@pagebreak}"
+				""
+				"Although this is not strictly required until you need to make and read &6Data Modules&r, your single &3Data Access Hatch&r on your &3Assembly Line&r will not have space to hold all the items you need to craft otherwise."
+				""
+				"If your Assembly Line setups grow enough, you may need to &echain&r Data Banks. Connect the &3Transmission Hatch&r on the Data Bank with data to the &3Reception Hatch&r of a second Data Bank. The &ereceiving&r Data Bank will be able to read all the data within the transmitting Data Bank, and can send that data to more Assembly Lines or more Data Banks. However, this comes at a greatly increased energy cost for the transmitting Data Bank."
+			]
+			icon: "gtceu:data_bank"
+			id: "57C75A5756F62D17"
+			rewards: [{
+				count: 3
+				id: "31E3AF2900571CAE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39BC10CE928DDE14"
+					item: "gtceu:data_bank"
+					type: "item"
+				}
+				{
+					id: "2B4D7DC825D1307C"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "7262E610DF6D4DD7"
+					item: "gtceu:computer_heat_vent"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5841BA5408F05A8A"
+					item: "gtceu:computer_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3F2108F11943B202"
+					item: "gtceu:high_power_casing"
+					type: "item"
+				}
+			]
+			title: "&2Data Bank"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["672D43BD113251EA"]
+			description: [
+				"&2Optical Fiber Cables&r are used to transfer &eResearch Data&r&r between &3Data Banks&r and &3Assembly Lines&r, or &eComputation Data&r between &3High Performance Computation Arrays&r, &3Network Switches&r, and &3Research Stations&r."
+				""
+				"Note that Optical connections are limited to one &aTransmission Hatch&r to one &aReception Hatch&r."
+			]
+			id: "3A69EE21B3089929"
+			tasks: [{
+				id: "0C1D0A754607F817"
+				item: "gtceu:normal_optical_pipe"
+				type: "item"
+			}]
+			title: "&2Optical Fiber Cables"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A69EE21B3089929"]
+			description: [
+				"The &3High Performance Computing Array (HPCA)&r is a computer which provides &dComputation Work&r to be used in the &3Research Station&r. The amount of &dComputation Work&r it provides depends on the type of HPCA parts within it. It also needs to receive adequate &dCooling&r provided by Coolers within its structure."
+				""
+				"Connect the &3Computation Data Transmission Hatch&r to the &3Reception Hatch&r on your &3Research Station&r to transfer the &dCWU/t&r produced to it."
+				""
+				"The HPCA accepts almost any combination of &3Computation Components&r, &3Coolers&r, &3Bridges&r and &3Empty Components&r within the 3x3 area behind the &aComputer Heat Vents&r. The suggested components will build a &d16 CWU/t&r HPCA, enough for scanning the &3Fusion Reactor Mk2&r, &6UV Circuits&r, and all &6ZPM Components&r. You can get away with less at first, but you will eventually need to upgrade to this computing power. Refer to &eJEI&r for some other possible setups."
+				""
+				"The &dCWU/t&r of the HPCA is determined by the sum of the outputs of the &3HPCA Computation Components&r within it. Regular &3Computation Components&r produce &d4 CWU/t&r each, and require &d2 Cooling&r each. &3Advanced Computation Components&r, which you do not have access to yet, produce &d16 CWU/t&r each and require &d4 Cooling&r each."
+				""
+				"{@pagebreak}"
+				""
+				"&dCooling&r is provided by &3Cooler&r blocks within the structure. &3Passive Coolers&r provide &d1 Cooling&r each for free, whereas &3Active Coolers&r provide &d2 Cooling&r each with a steady flow of &9Dielectric PCB Coolant&r, provided through an &3Input Hatch&r. If the Cooling within the HPCA is insufficient, the components may be &cdamaged&r from overheating. The physical position of the components within the HPCA does not matter."
+				""
+				"A &3Bridge Component&r may be installed, allowing the HPCA to connect to &3Network Switches&r."
+				""
+				"The energy consumption of the HPCA is determined by the sum of its parts. 'Max Energy' refers to the power draw while the HPCA is computing, while 'Upkeep Energy' refers to the power draw when the HPCA is idling."
+			]
+			icon: "gtceu:high_performance_computation_array"
+			id: "37BE175EEC2ABD59"
+			rewards: [{
+				id: "49662F3AC1BF54B0"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66058E2583089E93"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "4DC31C441D81AFA8"
+					item: "gtceu:computer_heat_vent"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "2593E8CA09114408"
+					item: "gtceu:advanced_computer_casing"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "671960FED0771DD9"
+					item: "gtceu:computer_casing"
+					type: "item"
+				}
+				{
+					id: "2D706239B6466475"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+			]
+			title: "&2High Performance Computing Array"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37BE175EEC2ABD59"]
+			description: [
+				"The &3Research Station&r is an advanced Scanner which consumes &dComputation Work&r provided by connected &3High Performance Computing Arrays&r to research &cZPM&r and higher items.%n%nThe function of this multiblock is similar to the Scanner. Place the &6Data Orb&r or &6Data Module&r into the &3Object Holder&r alongside the item to be scanned. After sufficient &dCWU&r has been drawn, the item will be &cconsumed&r and the corresponding data will be written to the data item. Ensure your &3HPCA&r is supplying sufficient &dCWU/t&r - check the scan recipe in &eJEI&r for how much is required."
+				""
+				"&3Energy&r, &3Maintenance&r, and &3Computation Hatches&r can only replace the 9 &aComputer Casings&r between the &aComputer Heat Vents&r at the back of the structure. The &3Object Holder&r &cmust face&r the &3Research Station&r controller block."
+				""
+				"nThe Research Station can be accelerated with excess &dCWU/t&r, but it &cdoes not overclock&r with extra &dEU/t&r. Initial recipes run on &dLuV&r power, but &cZPM&r will be required soon, and higher tiers of energy will be required for more advanced scans. As most Research scans take a long time, you should start this process early."
+			]
+			icon: "gtceu:research_station"
+			id: "1109CFC5D47FC011"
+			tasks: [
+				{
+					id: "3AD27DA0F09B8C56"
+					item: "gtceu:research_station"
+					type: "item"
+				}
+				{
+					count: 49L
+					id: "18B4DC694262045C"
+					item: "gtceu:computer_casing"
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "0C95764D74768CB4"
+					item: "gtceu:advanced_computer_casing"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "7AA21CF7DB131044"
+					item: "gtceu:computer_heat_vent"
+					type: "item"
+				}
+				{
+					id: "23103B6326C92E62"
+					item: "gtceu:object_holder"
+					type: "item"
+				}
+				{
+					id: "41A8916DAC27BCD0"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6588C68DE6973BCC"]
+			description: [
+				"Once you scan and make make your first &6UV Circuits&r and &6ZPM Field Generators&r, you can upgrade your &3HPCA Computing Components&r to &3Advanced Components&r. These produce &d16 CWU/t&r each and require &d4 Cooling&r each."
+				""
+				"With them, you can upgrade a single HPCA to produce &d32 CWU/t&r total - enough for basic &6UV components&r, and the &3Network Switch&r, which will allow you to go higher."
+			]
+			id: "0CEF53164D8B6496"
+			rewards: [{
+				id: "4D2596DD65D69A4E"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59294AD73C598693"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			title: "&2Advanced HPCA"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0CEF53164D8B6496"]
+			description: [
+				"The &3Network Switch&r combines any number of &3Computation Data Reception Hatches&r into any number of &3Computation Data Transmission Hatches&r. This will be required when the &dCWU/t&r requirements of your &3Research Station&r exceed what a single &3HPCA&r can provide."
+				""
+				"Connect the &3Computation Data Reception Hatches&r&r to your &3HPCAs&r with &3Bridge Components&r within them, and connect a single &3Computation Data Transmission Hatch&r to your &3Research Station&r, and it will receive the sum of &dCWU/t&r from all of your HPCAs!"
+				""
+				"Now, all &3Assembly Line&r recipes are available to you, given you have the &dCWU/t&r to research them. The most computationally demanding scan, for the &6Ultimate Battery&r, requires &d144 CWU/t&r."
+				""
+				"The Network Switch consumes &d7,680 EU/t&r per &3Computation Hatch&r in its structure."
+			]
+			icon: "gtceu:network_switch"
+			id: "75DD12FBC8AA39FC"
+			rewards: [{
+				id: "391ACCFEB29056AC"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7AA10ECE89BABEEA"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "698C9026857CD0F9"
+					item: "gtceu:computer_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2CAF4E12B432094F"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "09E3C1019A70EAB5"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+			]
+			title: "&2Network Switch"
+			x: 3.5d
+			y: 1.0d
 		}
 	]
 	title: "Fission and Fusion"

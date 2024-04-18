@@ -6,7 +6,22 @@
 	icon: "hostilenetworks:sim_chamber"
 	id: "6D8C988EFB3F7437"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "1344E3300C29A4CF"
+			linked_quest: "6A914B240E1A7BCB"
+			shape: "hexagon"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "518FB90169F41B6A"
+			linked_quest: "73C1AB31431B5C11"
+			shape: "hexagon"
+			x: 1.5d
+			y: -1.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["715BC5C7DAC53B7B"]
@@ -36,7 +51,7 @@
 		{
 			dependencies: [
 				"05B3758B509861B8"
-				"39A04E694747714D"
+				"6A914B240E1A7BCB"
 			]
 			description: [
 				"Simulating mob kills will occasionally result in &6Pristine Matter&r of that mob's type."
@@ -48,7 +63,7 @@
 			id: "0006FEA1843FEA0A"
 			rewards: [{
 				id: "41BB142FCD5A17DD"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -61,47 +76,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6A914B240E1A7BCB"]
-			description: [
-				"This alloy is made from &2mixing 2 Gold Dust, 1 Redstone, and 1 Glowstone Dust in a Mixer, creating Energetic Alloy Dust,&r and putting it in your new &3Electric Blast Furnace&r."
-				""
-				"Throw &2the prepared dust into the input bus&r and in twenty seconds your &6Energetic Alloy Ingot&r will be in the output bus."
-				""
-				"&2In EV Age, you can build an Alloy Blast Smelter which doubles the yield."
-			]
-			disable_toast: true
-			id: "39A04E694747714D"
-			shape: "hexagon"
-			tasks: [{
-				id: "5C585188F64F54CC"
-				item: "gtceu:energetic_alloy_ingot"
-				type: "item"
-			}]
-			title: "&2Energetic Alloy"
-			x: 0.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["39A04E694747714D"]
-			description: [
-				"Another alloy."
-				""
-				"&2In EV Age, you can build an Alloy Blast Smelter which doubles the yield."
-			]
-			disable_toast: true
-			id: "47BBC84E7CB9874F"
-			shape: "hexagon"
-			tasks: [{
-				id: "0309AF57DFC8E9CE"
-				item: "gtceu:vibrant_alloy_ingot"
-				type: "item"
-			}]
-			title: "&2Vibrant Alloy"
-			x: 1.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["47BBC84E7CB9874F"]
+			dependencies: ["73C1AB31431B5C11"]
 			description: [
 				"The &6Numismatic Dynamo&r is the main source of power through the Mid Game of the pack. Paired with a &aLapidary Calibration Augment&r and a self-sustaining &bHostile Neural Networks&r setup, this dynamo can burn through &6Diamonds&r to produce large amounts of &eRF power&r."
 				""
@@ -110,7 +85,7 @@
 			id: "6FDF37EE046349F7"
 			rewards: [{
 				id: "00CF22695EBB0588"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -151,7 +126,7 @@
 				""
 				"Resonant Clathrates are made by melting &6Ender Pearls&r with a &3Fluid Extractor&r into &9Resonant Ender&r, then mixing that with &6Nether Quartz&r in an MV or better &3Chemical Reactor&r. Smelting this clathrate gives Pulsating Dust."
 				""
-				"With Resonant Clathrates now accessible, everything you need for crafting &6Pulsating Polymer Clay&r can be automated in a net-positive loop.&r Doing so is the first step in automation of &bDeep Mob Evolution&r, which is &ea primary source of important materials for the rest of the pack&r."
+				"With Resonant Clathrates now accessible, everything you need for crafting &6Pulsating Polymer Clay&r can be automated in a net-positive loop.&r Doing so is the first step in automation of &bHostile Neural Networks&r, which is &ea primary source of important materials for the rest of the pack&r."
 				""
 				"The exact implementation is up to you. Make use of the various LV and MV machines you have, and look through &bJEI&r and the Processing Lines Tab for the ways to get infinite sources of each ingredient (like &aEnderman Models&r for pearls)."
 			]
@@ -159,7 +134,7 @@
 			id: "5E80297BCBEA3C27"
 			rewards: [{
 				id: "1C6E51A8176CFB52"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -168,7 +143,7 @@
 				item: "kubejs:resonant_clathrate"
 				type: "item"
 			}]
-			title: "&dResonant&r Clathrate"
+			title: "&9Resonant&r Clathrate"
 			x: 5.5d
 			y: -3.5d
 		}
@@ -179,7 +154,7 @@
 			id: "73C6E2724EBEC997"
 			rewards: [{
 				id: "6D51757F4B8A104D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -206,7 +181,7 @@
 			rewards: [{
 				count: 10
 				id: "657734BD98FA415C"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -272,7 +247,7 @@
 			rewards: [{
 				count: 10
 				id: "37D51103CDBEF3CF"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -396,7 +371,7 @@
 			id: "2201391DEEBE79E4"
 			rewards: [{
 				id: "1009ACAEC97F01D9"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -419,7 +394,7 @@
 			id: "72D61AFACC53A34A"
 			rewards: [{
 				id: "364D96E3EA9A4952"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -438,7 +413,7 @@
 			id: "09F8678BBA41D15E"
 			rewards: [{
 				id: "1F5EA736BD59C447"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -458,7 +433,7 @@
 			rewards: [{
 				count: 10
 				id: "13A8E2F02B97AC09"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -529,7 +504,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["72D61AFACC53A34A"]
+			dependencies: [
+				"72D61AFACC53A34A"
+				"3F39E9B829DAE2F2"
+			]
 			description: [
 				"Once you have obtained your first piece of &6Hellish Matter&r, or unlocked the &3Atomic Reconstructor&r, travel to the &eNether&r becomes available."
 				""
@@ -545,7 +523,7 @@
 			id: "7A67E519745A8361"
 			rewards: [{
 				id: "5E252CA9C37789FE"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -572,7 +550,7 @@
 			id: "45DD07F2BB9C6A59"
 			rewards: [{
 				id: "5EEB9D28CDCA083B"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			tasks: [{

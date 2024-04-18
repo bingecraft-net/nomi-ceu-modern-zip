@@ -55,7 +55,7 @@
 			id: "00203B07F8A930DA"
 			rewards: [{
 				id: "386F154B1160F203"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -75,7 +75,7 @@
 			id: "67C7895F2722D348"
 			rewards: [{
 				id: "3F8BBD3932AB851B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -97,7 +97,7 @@
 			id: "4489F567154BDB09"
 			rewards: [{
 				id: "1DF5664A05805FA9"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -115,7 +115,7 @@
 			id: "5D5B76387841C3FA"
 			rewards: [{
 				id: "3C2437836E336ECA"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -137,7 +137,7 @@
 			id: "3FF918B4CF33E8F7"
 			rewards: [{
 				id: "29B960A8AF0D34C8"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -164,7 +164,7 @@
 			id: "227F448DFCC3E8C3"
 			rewards: [{
 				id: "6CA886F14DF08A57"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -182,7 +182,7 @@
 			id: "0B6ACDE565DB7862"
 			rewards: [{
 				id: "1A4F7D7DCCD5355D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -204,7 +204,7 @@
 			id: "6F11E32BA70CA38C"
 			rewards: [{
 				id: "739F3AC195D9D236"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -224,7 +224,7 @@
 			id: "6D70F91101D8CBB4"
 			rewards: [{
 				id: "2DD9462FC699AF14"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -246,7 +246,7 @@
 			id: "0E419DD2C6D58F49"
 			rewards: [{
 				id: "2A2BD2E24C11417C"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -269,7 +269,7 @@
 			id: "47A81FADD828772D"
 			rewards: [{
 				id: "76C5C1CA73A3AB1B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			subtitle: "...or, well, you might just do some exploration and kill a wild thermal elemental for a rod."
@@ -291,7 +291,7 @@
 			id: "58FCAC329B09FEB0"
 			rewards: [{
 				id: "67F39832C727C042"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -313,7 +313,7 @@
 			id: "476F71CC0B0AC2A4"
 			rewards: [{
 				id: "7CAFCC053CC1526A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -333,7 +333,7 @@
 			id: "63F438F7033521C3"
 			rewards: [{
 				id: "18A9F94036616751"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -360,7 +360,7 @@
 			id: "3E12862AD553EB8A"
 			rewards: [{
 				id: "35630B1716A6DAEA"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -382,7 +382,7 @@
 			id: "46C6F922B4ADCC8C"
 			rewards: [{
 				id: "795FED529D7E9BFE"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -399,12 +399,12 @@
 			description: [
 				"A very power-efficient, if slow before upgrades, means of creating plates. Also the only way to directly make plates from single gems."
 				""
-				"&dIt's also able to compact items into other things as well, such as gears."
+				"&9It's also able to compact items into other things as well, such as gears."
 			]
 			id: "7045BE273C44BA35"
 			rewards: [{
 				id: "54871D72B9A05DF7"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "square"
@@ -413,7 +413,7 @@
 				item: "thermal:machine_press"
 				type: "item"
 			}]
-			title: "&dMultiservo Press"
+			title: "&9Multiservo Press"
 			x: 5.0d
 			y: 8.5d
 		}
@@ -427,7 +427,7 @@
 			id: "5BE9EDB88D656840"
 			rewards: [{
 				id: "71343BFD7B180C0A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -457,7 +457,7 @@
 			id: "15372CBC9F2EA9BC"
 			rewards: [{
 				id: "0EEE8E7CD495E61E"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -480,7 +480,7 @@
 			rewards: [
 				{
 					id: "61701B06472AFA90"
-					item: "kubejs:nomi_nickel"
+					item: "kubejs:moni_nickel"
 					type: "item"
 				}
 				{
@@ -490,7 +490,7 @@
 						id: "trofers:large_pillar"
 						tag: {
 							BlockEntityTag: {
-								Trophy: "nomiceu:titanium"
+								Trophy: "moniceu:titanium"
 							}
 						}
 					}
@@ -517,7 +517,7 @@
 			id: "441E5CDAD5007906"
 			rewards: [{
 				id: "1A24B071CD779CC6"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -536,7 +536,7 @@
 			id: "78DCEF2FF2E1AC8C"
 			rewards: [{
 				id: "7DC26BD00EC30EF0"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -559,7 +559,7 @@
 			id: "0143E903317263D4"
 			rewards: [{
 				id: "7B765F0CA1B23968"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -582,7 +582,7 @@
 			id: "397DB20B979BC714"
 			rewards: [{
 				id: "09AF986F42E10AF9"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -600,7 +600,7 @@
 			description: [
 				"The Second Micro Miner! &2You'll need that Phosphorous in the LV Field Generators.&r"
 				""
-				"&dDon't forget that you can automate Extended Crafting recipes before you get PackagedAuto by converting your Extended Crafting tables into autocrafting tables."
+				"&9Don't forget that you can automate Extended Crafting recipes before you get PackagedAuto by converting your Extended Crafting tables into autocrafting tables."
 				""
 				"This Micro Miner can get you:&6"
 				"&6* Bauxite Ore"
@@ -619,7 +619,7 @@
 			id: "53C00EA9D9BEE776"
 			rewards: [{
 				id: "66C6B5C146FB14CF"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -629,7 +629,7 @@
 				item: "kubejs:microminer_t2"
 				type: "item"
 			}]
-			title: "&dTier Two Micro Miner"
+			title: "&9Tier Two Micro Miner"
 			x: 9.5d
 			y: 8.5d
 		}
@@ -646,7 +646,7 @@
 			id: "49D33146A1F417E8"
 			rewards: [{
 				id: "25D8F3FDB3D8A0D6"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -666,7 +666,7 @@
 			id: "11154356854B64DA"
 			rewards: [{
 				id: "3BB23BE4C21AB7BD"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -692,7 +692,7 @@
 			id: "3F216049FBBB4E36"
 			rewards: [{
 				id: "7756528156862D1A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -715,7 +715,7 @@
 			id: "2F8B802869825E02"
 			rewards: [{
 				id: "11A4B74776A7F2EB"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -741,7 +741,7 @@
 			id: "349869EBF2D9FAF1"
 			rewards: [{
 				id: "43A8ED9E9FB6365D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -770,7 +770,7 @@
 			id: "74832ED7B78A6AEA"
 			rewards: [{
 				id: "1E886FEB3DA0D886"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -790,14 +790,14 @@
 				""
 				"&6Kanthal Coils&r are required primarily for producing &6Silicon&r, required for Circuit parts, and &6Titanium&r, used for &5EV&r machines. An &bMV &3Assembler&r is required to produce them, and they require &62x Kanthal Wire&r, &6Aluminium Foil&r, and &9Copper fluid&r."
 				""
-				"&2In CEu, using higher-tier coils provides some bonuses to their multiblocks.&r For the &3Electric Blast Furnace&r, running recipes hotter than required can reduce the energy cost and time taken. The &dtemperature&r of the EBF depends on the coil used and the voltage it is running at. For Kanthal Coils, this means that recipes you could run with &6Cupronickel Coils&r will save &d5%&r energy."
+				"&2In CEu, using higher-tier coils provides some bonuses to their multiblocks.&r For the &3Electric Blast Furnace&r, running recipes hotter than required can reduce the energy cost and time taken. The &9temperature&r of the EBF depends on the coil used and the voltage it is running at. For Kanthal Coils, this means that recipes you could run with &6Cupronickel Coils&r will save &95%&r energy."
 				""
 				"Refer to the coil tooltip and EBF controller tooltip for the other bonuses provided."
 			]
 			id: "772004D5792ACC4C"
 			rewards: [{
 				id: "22AB433442991A13"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -821,7 +821,7 @@
 			id: "1DB3CCC10C0EB1A8"
 			rewards: [{
 				id: "2C2C08984F62573F"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -841,16 +841,16 @@
 				""
 				"Notice that an &6HV&r &3Assembler&r is required to make them. Each tier of coil requires their tier of Assembler - we won't remind you again."
 				""
-				"&d3600K&r is now also hot enough to grant a single &d100% efficient overclock&r to 1800K and below recipes. This means that one overclock will grant &d4x speed&r instead of the normal &d2x&r. In effect, you will get an additional 2x speed boost by overclocking once. "
+				"&93600K&r is now also hot enough to grant a single &9100% efficient overclock&r to 1800K and below recipes. This means that one overclock will grant &94x speed&r instead of the normal &92x&r. In effect, you will get an additional 2x speed boost by overclocking once. "
 				""
 				"This means that the gas-boosted recipe for &6Aluminium&r will get cut from about &e7s&r to &e3s&r at HV. Once you upgrade your EBF to EV power, &6Stainless Steel Ingots&r will get cut from about &e37s&r to &e9s&r! It's well worth upgrading the EBFs producing these materials to &6Nichrome&r once you can afford it. "
 				""
-				"Later coils will give similar bonuses. Additionally, the EBF's temperature will increase by &d100K&r for each voltage tier above MV, which could make a difference for future materials."
+				"Later coils will give similar bonuses. Additionally, the EBF's temperature will increase by &9100K&r for each voltage tier above MV, which could make a difference for future materials."
 			]
 			id: "28263004814F0F64"
 			rewards: [{
 				id: "02A444D4E7FC7D2C"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -870,7 +870,7 @@
 			id: "2412924535FC751E"
 			rewards: [{
 				id: "634D618267BA0E7A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -899,7 +899,7 @@
 			id: "3000798ACA51BFDC"
 			rewards: [{
 				id: "219281A5FEE8A69B"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -925,7 +925,7 @@
 			id: "4C475D22CC95EB93"
 			rewards: [{
 				id: "5BE67701C3604EA5"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -955,7 +955,7 @@
 			id: "77CEA89E47BB3B7A"
 			rewards: [{
 				id: "7EA237F4D10FCC5D"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -984,7 +984,7 @@
 			id: "2DCD08F30EC049D1"
 			rewards: [{
 				id: "71A3B40C98FC222D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1037,7 +1037,7 @@
 			id: "6203088E30E34B45"
 			rewards: [{
 				id: "75223C7CF65CA6A8"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1062,7 +1062,7 @@
 			id: "27CE1D6B9683755F"
 			rewards: [{
 				id: "1452768E6BEFA7DD"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1102,7 +1102,7 @@
 			id: "41F026E4C649A2FA"
 			rewards: [{
 				id: "5DE32B0206E33A60"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1123,7 +1123,7 @@
 			id: "595F205B551A53C9"
 			rewards: [{
 				id: "39FA46859D2FA9B6"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1152,7 +1152,7 @@
 			rewards: [{
 				count: 2
 				id: "79E180C05B68E313"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1184,7 +1184,7 @@
 			id: "5FF33EF493DB7E01"
 			rewards: [{
 				id: "05B6976952CDA31F"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1209,7 +1209,7 @@
 			id: "51F895647CB242F1"
 			rewards: [{
 				id: "4F3636FD998B7A2C"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1239,7 +1239,7 @@
 			id: "16EACCF9B4FA89B3"
 			rewards: [{
 				id: "6E9E23E1E73B28F8"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1333,7 +1333,7 @@
 			id: "74EDAE84246C7228"
 			rewards: [{
 				id: "19B21A629B488588"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1357,7 +1357,7 @@
 			id: "0E20199737DFE4AC"
 			rewards: [{
 				id: "7FB47FCB7F1894ED"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1378,7 +1378,7 @@
 			id: "1F2E76FA4B2C2E84"
 			rewards: [{
 				id: "643B3A9C2025408C"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1403,7 +1403,7 @@
 			id: "6FE459376BF7ABBA"
 			rewards: [{
 				id: "27A2A4E427EC919F"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1427,7 +1427,7 @@
 			id: "2396EF225839C65D"
 			rewards: [{
 				id: "70073E9059FEF2F4"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1451,7 +1451,7 @@
 			id: "04BDE09518C184E4"
 			rewards: [{
 				id: "388AF4AD8543E77D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1481,14 +1481,14 @@
 				""
 				"Any other recipe which could be done in a normal &9Chemical Reactor&r, as well as certain &9Mixer&r recipes, can also be done in an &3LCR&r."
 				""
-				"All &dOverclocks&r in the &3LCR&r are &6100%% efficient&r; each overclock will &5quadruple the speed&r, as opposed to doubling it."
+				"All &9Overclocks&r in the &3LCR&r are &6100%% efficient&r; each overclock will &5quadruple the speed&r, as opposed to doubling it."
 			]
 			icon: "gtceu:large_chemical_reactor"
 			id: "21B16C005E9E3B0E"
 			rewards: [{
 				count: 2
 				id: "4D5C5770FD6B48D0"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			size: 1.5d
@@ -1537,7 +1537,7 @@
 			id: "4C76017864258EA9"
 			rewards: [{
 				id: "75650BCA363714AB"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1570,7 +1570,7 @@
 			id: "2CC50101A39EA2C0"
 			rewards: [{
 				id: "18AB98476104E3CE"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -1601,7 +1601,7 @@
 			id: "502AB887CB316377"
 			rewards: [{
 				id: "3904B31C25EB8F3B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1625,7 +1625,7 @@
 			id: "2FFEE746B0ECA2D8"
 			rewards: [{
 				id: "77DAA0DE7114952F"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1642,7 +1642,7 @@
 			description: [
 				"You will need either &9Seed Oil&r or &9Fish Oil&r in the process of creating &9Biodiesel&r, created by extracting seeds or fish."
 				""
-				"The easiest ways to get seeds are with a &dGreenhouse&r."
+				"The easiest ways to get seeds are with a &9Greenhouse&r."
 				""
 				"The easiest ways to get fish are via a &aGuardian Model&r from &bHNN&r, or using a &aGregtech Fisher&r."
 				""
@@ -1655,7 +1655,7 @@
 				id: "0948D3609E8F3E64"
 				type: "checkmark"
 			}]
-			title: "&dBiodiesel Feedstock"
+			title: "&9Biodiesel Feedstock"
 			x: 37.0d
 			y: -0.5d
 		}
@@ -1673,7 +1673,7 @@
 			id: "7174484A926682F3"
 			rewards: [{
 				id: "66BDFCA2BC6CD3F8"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1738,7 +1738,7 @@
 			id: "26ECEC06CCAB3E56"
 			rewards: [{
 				id: "680E81B7AA6684B1"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1764,7 +1764,7 @@
 			id: "3B3F46345D39CAE2"
 			rewards: [{
 				id: "56277B0B269AC0D5"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1787,7 +1787,7 @@
 			id: "14F1FF4656693711"
 			rewards: [{
 				id: "2B2A8D6D88EBB4BE"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1810,7 +1810,7 @@
 			id: "7E9DF1139829C78B"
 			rewards: [{
 				id: "1937B83F4C1E07EE"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1835,7 +1835,7 @@
 			rewards: [{
 				count: 2
 				id: "6694DC039D1FD1E7"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1852,7 +1852,7 @@
 					type: "item"
 				}
 			]
-			title: "&dEmpowererment"
+			title: "&9Empowererment"
 			x: 23.0d
 			y: 6.5d
 		}
@@ -1886,7 +1886,7 @@
 			id: "664107ED03A944CD"
 			rewards: [{
 				id: "5F3323232ACD2ED2"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1914,7 +1914,7 @@
 			id: "4D38653541F76928"
 			rewards: [{
 				id: "76040F15781A793D"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1937,7 +1937,7 @@
 			id: "1207189AD233A746"
 			rewards: [{
 				id: "3C2FEAF67B00D26B"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1959,7 +1959,7 @@
 			id: "358D9A7B1BCFA30A"
 			rewards: [{
 				id: "535CC17F21E9AC46"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1986,7 +1986,7 @@
 			id: "0F140E480826AA81"
 			rewards: [{
 				id: "5CA3FA1B30857AF7"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2010,7 +2010,7 @@
 			id: "360B577684B1AB1B"
 			rewards: [{
 				id: "386430CD06FF62A0"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -2035,7 +2035,7 @@
 			id: "785C6332FC7A07A5"
 			rewards: [{
 				id: "018F59985157C145"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2059,7 +2059,7 @@
 			id: "2DDD4B4EC8065980"
 			rewards: [{
 				id: "2ECBEC92606E55F4"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "square"
@@ -2075,11 +2075,11 @@
 		{
 			dependencies: ["785C6332FC7A07A5"]
 			description: [
-				"&dDeepslate Processing is a great way to get tons of Fluorine and Thorium. Therefore, it is recommended to setup this process as soon as possible.&r"
+				"&9Deepslate Processing is a great way to get tons of Fluorine and Thorium. Therefore, it is recommended to setup this process as soon as possible.&r"
 				""
 				"&6Fluorine&r is needed in &6Polytetrafluoroethylene (PTFE)&r, and &6Thorium&r is used in &bNuclearCraft &3Fission Reactors&r."
 				""
-				"&3Rock Breakers&r are first used to achieve renewable &6Deepslate&r. This recipe runs at &dEV&r or higher."
+				"&3Rock Breakers&r are first used to achieve renewable &6Deepslate&r. This recipe runs at &9EV&r or higher."
 				""
 				"After this, &3Macerators&r should pulverise the &6Black Granite&r into &6Black Granite Dust&r and a chance of &6Thorium&r. It is recommended to overclock this recipe as much as you can, in order to maximize output of &6Thorium&r."
 				""
@@ -2090,7 +2090,7 @@
 			id: "5FB696EF1D2412F5"
 			rewards: [{
 				id: "29E845DD3A0B570F"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			tasks: [{
@@ -2098,7 +2098,7 @@
 				item: "minecraft:deepslate"
 				type: "item"
 			}]
-			title: "&dDeepslate Processing"
+			title: "&9Deepslate Processing"
 			x: 13.0d
 			y: 15.5d
 		}
@@ -2110,7 +2110,7 @@
 			description: [
 				"&2The Alloy Blast Smelter directly smelts dust combinations into molten Alloys, skipping the Mixer step, and applying a 3/4 discount to your EBF time. Some molten alloys may need to be cooled in a Vacuum Freezer before being usable."
 				""
-				"&rThis is the only way to create some of the advanced alloys used in multiblock machines. You can also use it for most normal alloys if you want. In particular, the yield of &6Energetic Alloy&r and &6Vibrant Alloy&r is &ddoubled&r, and &6Red Alloy&r has a discount from 4 redstone per alloy, to 1 and a half."
+				"&rThis is the only way to create some of the advanced alloys used in multiblock machines. You can also use it for most normal alloys if you want. In particular, the yield of &6Energetic Alloy&r and &6Vibrant Alloy&r is &9doubled&r, and &6Red Alloy&r has a discount from 4 redstone per alloy, to 1 and a half."
 				""
 				"You can also use the ABS for most Alloy Smelter alloys, apart from &6Steel&r, like &eInvar&r, &e&eConductive Iron&r&r, and &e&eDark Steel&r&r."
 			]
@@ -2118,7 +2118,7 @@
 			id: "0FA959478905FFF3"
 			rewards: [{
 				id: "49B29238D8C173E4"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2160,7 +2160,7 @@
 			id: "7F1EE712BD9CC811"
 			rewards: [{
 				id: "7AE2C61EAC181F01"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2201,7 +2201,7 @@
 			rewards: [
 				{
 					id: "5F9123370A4D8C0A"
-					item: "kubejs:nomi_nickel"
+					item: "kubejs:moni_nickel"
 					type: "item"
 				}
 				{
@@ -2211,7 +2211,7 @@
 						id: "trofers:large_pillar"
 						tag: {
 							BlockEntityTag: {
-								Trophy: "nomiceu:tungstensteel"
+								Trophy: "moniceu:tungstensteel"
 							}
 						}
 					}
@@ -2236,9 +2236,9 @@
 			description: [
 				"&2With advanced alloys from the Alloy Blast Smelter and IV Machines, you can make large versions of most GT machines."
 				""
-				"&rThese are formed like multiblocks. You can add a &3Parallel Control Hatch&r in order to allow them to process &dmore recipes&r at the same time, similarly to a &3Processing Array&r. The highest tier of Parallel Control Hatch can facilitate processing &d256 recipes&r at once!"
+				"&rThese are formed like multiblocks. You can add a &3Parallel Control Hatch&r in order to allow them to process &9more recipes&r at the same time, similarly to a &3Processing Array&r. The highest tier of Parallel Control Hatch can facilitate processing &9256 recipes&r at once!"
 				""
-				"&dIn Modern, Gregicality Multiblocks was folded into the main mod.&r"
+				"&9In Modern, Gregicality Multiblocks was folded into the main mod.&r"
 				""
 				"Look up the usages of Parallel Hatches in JEI to see details of all the multiblock machines."
 				""
@@ -2248,7 +2248,7 @@
 			id: "4EC59BC9BCCB3C5D"
 			rewards: [{
 				id: "037FEFBD6BBD120C"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2282,7 +2282,7 @@
 				title: "Any Control Hatch"
 				type: "item"
 			}]
-			title: "&dMultiblock Madness"
+			title: "&9Multiblock Madness"
 			x: 32.0d
 			y: 15.5d
 		}
@@ -2296,7 +2296,7 @@
 			id: "605062720747B482"
 			rewards: [{
 				id: "569C43CD39E5CBF1"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2314,12 +2314,12 @@
 			description: [
 				"&6RTM Alloy&r is the fourth coil material available, increasing your EBF's operating temperature to 4500K so it can process more advanced materials."
 				""
-				"&dIn modern, RTM Alloy replaces tungstensteel in coil progression."
+				"&9In Monifactory, RTM Alloy replaces tungstensteel in coil progression."
 			]
 			id: "072DB633006E78B7"
 			rewards: [{
 				id: "6D3C752C2E6A7402"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2329,7 +2329,7 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			title: "&dRTM Alloy Coil Blocks"
+			title: "&9RTM Alloy Coil Blocks"
 			x: 37.0d
 			y: 8.5d
 		}
@@ -2366,7 +2366,7 @@
 			id: "51A463024F35DC2E"
 			rewards: [{
 				id: "505C0529E6772FB9"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2387,7 +2387,7 @@
 			id: "46A56A5E3CC2403F"
 			rewards: [{
 				id: "265B4D5F6DAD55AC"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2412,7 +2412,7 @@
 			id: "54C3B1B782FDF57F"
 			rewards: [{
 				id: "01BCF33781F5C38C"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2435,7 +2435,7 @@
 			id: "53EC3831D66769CA"
 			rewards: [{
 				id: "794FA2C0EE3BCC27"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2460,7 +2460,7 @@
 			id: "27A80F018F59EF1E"
 			rewards: [{
 				id: "325AA0A1716A9466"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2483,7 +2483,7 @@
 			id: "5732018AA35D69B6"
 			rewards: [{
 				id: "7C75FECF0159D446"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2508,7 +2508,7 @@
 			id: "174C8EDDEF916209"
 			rewards: [{
 				id: "11E219D7A2DE9F4A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2530,7 +2530,7 @@
 			id: "1349044BF8C04A12"
 			rewards: [{
 				id: "0ED26A36B25FCCC2"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2549,7 +2549,7 @@
 			rewards: [{
 				count: 2
 				id: "36AFF6AB4D683BE1"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			tasks: [{
@@ -2590,7 +2590,7 @@
 			id: "0A24D3A038861936"
 			rewards: [{
 				id: "3D440555B5D3639C"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2617,7 +2617,7 @@
 			rewards: [{
 				count: 2
 				id: "3F2F66C14E5AC440"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			subtitle: "I'm running out of MCU puns."
@@ -2626,7 +2626,7 @@
 				item: "miniutilities:angel_ring"
 				type: "item"
 			}]
-			title: "&dCaptain... Marvel? IDK"
+			title: "&9Captain... Marvel? IDK"
 			x: 27.0d
 			y: 13.5d
 		}
@@ -2636,7 +2636,7 @@
 			id: "0B9D5F865C3F8B31"
 			rewards: [{
 				id: "4C8CAEEEAB645B5E"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2655,7 +2655,7 @@
 			id: "798889BE3819EB4D"
 			rewards: [{
 				id: "564DD63763022D42"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2694,7 +2694,7 @@
 			id: "38791476E970C57D"
 			rewards: [{
 				id: "70C66EF123AE5DD5"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2771,7 +2771,7 @@
 			id: "347983576B8C27F3"
 			rewards: [{
 				id: "13E68D7CFD79D206"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2798,7 +2798,7 @@
 			id: "6ED1605A65CF3724"
 			rewards: [{
 				id: "7379E967274DE570"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2820,7 +2820,7 @@
 			id: "3B6331F5763C4932"
 			rewards: [{
 				id: "7E04A2B8C780603A"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2842,7 +2842,7 @@
 			id: "7D39A4D0CC886796"
 			rewards: [{
 				id: "646B7B1FEBEBF357"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2865,7 +2865,7 @@
 			id: "4FC24CBCD13C3D08"
 			rewards: [{
 				id: "4B77C055A12EA566"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2894,7 +2894,7 @@
 			rewards: [{
 				count: 2
 				id: "601EA9673E14B279"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2913,7 +2913,7 @@
 			id: "7DACCCE935194E39"
 			rewards: [{
 				id: "5AFE5394391AF067"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2935,7 +2935,7 @@
 			id: "563B797BC7E2F3E3"
 			rewards: [{
 				id: "0F196A9FDA4B58BE"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2954,7 +2954,7 @@
 			id: "5CEBFF8A30F9CB61"
 			rewards: [{
 				id: "40CDC0E170AC52E8"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2978,7 +2978,7 @@
 			id: "6FB0357E12499B5F"
 			rewards: [{
 				id: "5E4EF45EDC85A4AE"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			size: 2.0d
@@ -3017,7 +3017,7 @@
 			id: "4CC612FF64877C60"
 			rewards: [{
 				id: "4724F2EF968F3DE2"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			size: 2.0d
@@ -3038,7 +3038,7 @@
 				""
 				"Right now, you can make the &6Large Steam Turbine&r and &6Large Gas Turbine&r. Once you get a &3Fusion Reactor&r going, you can make the &6Large Plasma Turbine&r."
 				""
-				"Each Large Turbine will need a &3Rotor Holder&r of the same or higher tier than the Large Turbine itself, and a &3Dynamo Hatch&r capable of handling the energy output. Each &3Rotor Holder&r tier above the Large Turbine &ddoubles&r the energy production and adds 10%% to fuel efficiency."
+				"Each Large Turbine will need a &3Rotor Holder&r of the same or higher tier than the Large Turbine itself, and a &3Dynamo Hatch&r capable of handling the energy output. Each &3Rotor Holder&r tier above the Large Turbine &9doubles&r the energy production and adds 10%% to fuel efficiency."
 				""
 				"You will need a &aRotor&r to go into each &3Rotor Holder&r&r. The Rotor will grant multiplicative Power and Efficiency bonuses depending on its material. Each Rotor also has a Durability, which is the number of seconds it will last."
 				""
@@ -3085,13 +3085,13 @@
 				""
 				"In the &eVoid&r: &9Raw Oil&r (does not deplete)"
 				""
-				"As Fluid Rigs work, they will deplete the vein under them, reducing their yields. When a vein is depleted, it still yields a small amount of its fluid. The first tier of Fluid Rig takes &d100,000 operations&r to deplete a vein. Higher tier Fluid Rigs harvest fluids far faster and deplete veins slower."
+				"As Fluid Rigs work, they will deplete the vein under them, reducing their yields. When a vein is depleted, it still yields a small amount of its fluid. The first tier of Fluid Rig takes &9100,000 operations&r to deplete a vein. Higher tier Fluid Rigs harvest fluids far faster and deplete veins slower."
 			]
 			icon: "gtceu:mv_fluid_drilling_rig"
 			id: "2F04FA8D3E15E375"
 			rewards: [{
 				id: "62433A6A37041DE1"
-				item: "kubejs:nomi_dollar"
+				item: "kubejs:moni_dollar"
 				type: "item"
 			}]
 			size: 2.0d
@@ -3143,7 +3143,7 @@
 			id: "745628397790ED7A"
 			rewards: [{
 				id: "0F6CC38788229FC4"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3171,7 +3171,7 @@
 			id: "0D0A0C18ED958511"
 			rewards: [{
 				id: "53EE5456026FC623"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3188,11 +3188,11 @@
 		}
 		{
 			dependencies: ["53C00EA9D9BEE776"]
-			description: ["&dWhile not required for progression, the space station serves as both a cool place to build a base, and opens the door to a variety of other space related options, including even making a dyson sphere!"]
+			description: ["&9While not required for progression, the space station serves as both a cool place to build a base, and opens the door to a variety of other space related options, including even making a dyson sphere!"]
 			id: "059A9B12C8478025"
 			rewards: [{
 				id: "62FD649920864137"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			tasks: [{
@@ -3200,7 +3200,7 @@
 				item: "gcyr:space_station_packager"
 				type: "item"
 			}]
-			title: "&dSpace Stationing"
+			title: "&9Space Stationing"
 			x: 9.5d
 			y: 10.5d
 		}
@@ -3214,7 +3214,7 @@
 			id: "32F80B528E0EAA96"
 			rewards: [{
 				id: "6339CD11A76FCF56"
-				item: "kubejs:nomi_nickel"
+				item: "kubejs:moni_nickel"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3223,7 +3223,7 @@
 				item: "gtceu:rtm_alloy_ingot"
 				type: "item"
 			}]
-			title: "&dRTM Alloy"
+			title: "&9RTM Alloy"
 			x: 37.0d
 			y: 6.5d
 		}
@@ -3237,7 +3237,7 @@
 			id: "60B16BB064E2FF4C"
 			rewards: [{
 				id: "70B5CA698487B70D"
-				item: "kubejs:nomi_quarter"
+				item: "kubejs:moni_quarter"
 				type: "item"
 			}]
 			tasks: [{
